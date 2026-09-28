@@ -2,6 +2,11 @@ name: 同步腾讯文档
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/sync.mjs'
+      - 'config.json'
+      - '.github/workflows/sync.yml'
   schedule:
     - cron: '3/5 * * * *'
 
