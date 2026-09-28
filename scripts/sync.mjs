@@ -97,22 +97,64 @@ async function listTools() {
 }
 
 function chooseTool(tools, kind) {
-  const names = kind === 'info'
-    ? ['getsheetinfo', 'sheet.getsheetinfo', 'sheet.get_sheet_info']
-    : ['getsheetrange', 'sheet.getsheetrange', 'sheet.get_sheet_range'];
-  for (const wanted of names) {
+  const exactNames = kind === 'info'
+    ? [
+        'sheet.get_sheet_info',
+        'sheet.getsheetinfo',
+        'getsheetinfo',
+        'sheet.get_info'
+      ]
+    : [
+        'sheet.get_sheet_range',
+        'sheet.getsheetrange',
+        'getsheetrange',
+        'sheet.get_range',
+        'sheet.get_range_data',
+        'sheet.read_range',
+        'sheet.read_sheet_range'
+      ];
+
+  for (const wanted of exactNames) {
     const hit = tools.find(t => String(t.name).toLowerCase() === wanted);
     if (hit) return hit.name;
   }
-  const hit = tools.find(t => {
-    const s = `${t.name || ''} ${t.description || ''}`.toLowerCase();
-    return kind === 'info'
-      ? /sheet/.test(s) && /(info|信息|子表|工作表)/.test(s) && !/(range|范围|update|更新)/.test(s)
-      : /sheet/.test(s) && /(range|范围)/.test(s) && /(get|read|获取|读取)/.test(s);
+
+  const candidates = tools.filter(t => {
+    const name = String(t.name || '').toLowerCase();
+    const desc = String(t.description || '').toLowerCase();
+    const s = `${name} ${desc}`;
+    const schema = t.inputSchema || t.input_schema || {};
+    const props = schema.properties || {};
+    const propNames = Object.keys(props).map(k => k.toLowerCase());
+
+    if (kind === 'info') {
+      return /sheet/.test(name) &&
+        /(get|read|info|query|获取|读取|查询|信息)/.test(s) &&
+        /(info|sheet|工作表|子表)/.test(s) &&
+        !/(clear|style|format|update|write|delete|remove|batch|set|add|create|merge|insert|清除|样式|更新|删除|写入|新增)/.test(s);
+    }
+
+    const hasRangeArg = propNames.includes('range') || propNames.some(k => /range/.test(k));
+    const hasFileArg = propNames.includes('file_id') || propNames.includes('fileid') || propNames.some(k => /file.*id/.test(k));
+    return /sheet/.test(name) &&
+      /range/.test(s) &&
+      (hasRangeArg || /range/.test(name)) &&
+      (hasFileArg || /sheet/.test(name)) &&
+      /(get|read|fetch|query|获取|读取|查询)/.test(s) &&
+      !/(clear|style|format|update|write|delete|remove|batch|set|add|create|merge|insert|清除|样式|更新|删除|写入|新增)/.test(s);
   });
-  if (hit) return hit.name;
-  const sheetNames = tools.map(t => t.name).filter(n => /sheet/i.test(n)).join(', ');
-  throw new Error(`没有识别到腾讯文档 ${kind === 'info' ? 'GetSheetInfo' : 'GetSheetRange'} 工具。当前与 sheet 相关工具：${sheetNames || '无'}`);
+
+  if (candidates.length) return candidates[0].name;
+
+  const sheetTools = tools
+    .filter(t => /sheet/i.test(String(t.name || '')))
+    .map(t => `${t.name}: ${String(t.description || '').replace(/\s+/g, ' ').slice(0, 140)}`)
+    .join('\n');
+
+  throw new Error(
+    `没有识别到腾讯文档 ${kind === 'info' ? 'GetSheetInfo' : 'GetSheetRange'} 读取工具。\n` +
+    `当前 sheet 工具：\n${sheetTools || '无'}`
+  );
 }
 
 function unpackToolResult(result) {
@@ -200,6 +242,7 @@ function selectedSheet(sheet) {
 
 await initialize();
 const tools = await listTools();
+console.log('腾讯文档 sheet 工具：\n' + tools.filter(t => /sheet/i.test(String(t.name || ''))).map(t => `- ${t.name}: ${String(t.description || '').replace(/\\s+/g, ' ').slice(0, 160)}`).join('\\n'));
 const infoTool = chooseTool(tools, 'info');
 const rangeTool = chooseTool(tools, 'range');
 
