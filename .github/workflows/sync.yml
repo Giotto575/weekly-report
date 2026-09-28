@@ -1,0 +1,42 @@
+name: 同步腾讯文档
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tencent-docs-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Read Tencent Docs
+        env:
+          TENCENT_DOCS_TOKEN: ${{ secrets.TENCENT_DOCS_TOKEN }}
+        run: node scripts/sync.mjs
+
+      - name: Commit updated web data
+        run: |
+          if git diff --quiet -- data/data.json; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          git commit -m "chore: sync Tencent Docs"
+          git push
