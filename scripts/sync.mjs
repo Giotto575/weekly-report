@@ -5,7 +5,7 @@ import process from 'node:process';
 const ROOT = process.cwd();
 const config = JSON.parse(await fs.readFile(path.join(ROOT, 'config.json'), 'utf8'));
 const TOKEN = process.env.TENCENT_DOCS_TOKEN;
-const MCP_URL = process.env.TENCENT_DOCS_MCP_URL || 'https://docs.qq.com/openapi/mcp';
+const MCP_URL = process.env.TENCENT_DOCS_MCP_URL || 'https://docs.qq.com/api/v6/sheet/mcp';
 
 if (!TOKEN) {
   throw new Error('缺少 TENCENT_DOCS_TOKEN。请在 GitHub 仓库 Settings → Secrets and variables → Actions 中添加。');
@@ -139,11 +139,25 @@ function scalar(v) {
   return '';
 }
 
-function normalizeWeeks(values) {
+function normalizeColor(raw) {
+  let s = String(raw || '').trim().replace(/^#/, '').toUpperCase();
+  if (!s) return '';
+  if (s.length === 8) {
+    const alpha = s.slice(0, 2);
+    if (alpha === '00') return '';
+    s = s.slice(2);
+  }
+  if (!/^[0-9A-F]{6}$/.test(s)) return '';
+  if (s === 'FFFFFF') return '';
+  return '#' + s;
+}
+
+function normalizeWeeks(values, styleMap = new Map()) {
   if (!Array.isArray(values)) return [];
   let lastYear = '', lastMonth = '';
   const weeks = [];
-  for (const input of values) {
+  for (let rowIndex = 0; rowIndex < values.length; rowIndex++) {
+    const input = values[rowIndex];
     if (!Array.isArray(input)) continue;
     const row = input.map(scalar);
     while (row.length < 22) row.push('');
@@ -155,14 +169,32 @@ function normalizeWeeks(values) {
     if (!week || /具体周|周次|week/i.test(week)) continue;
 
     const attendance = row.slice(4, 18).map(v => v.trim());
+    const attendanceColors = Array.from({ length: 14 }, (_, i) =>
+      normalizeColor(styleMap.get(`${rowIndex}:${i + 4}`)?.background_color)
+    );
     const monthlyPlan = row[18].trim();
     const completed = row[19].trim();
     const problems = row[20].trim();
     const nextPlan = row[21].trim();
-    if (!/[0-9]/.test(week) && !attendance.some(Boolean) && !monthlyPlan && !completed && !problems && !nextPlan) continue;
-    weeks.push({ year, month, week, attendance, monthlyPlan, completed, problems, nextPlan });
+    if (!/[0-9]/.test(week) && !attendance.some(Boolean) && !attendanceColors.some(Boolean) && !monthlyPlan && !completed && !problems && !nextPlan) continue;
+    weeks.push({ year, month, week, attendance, attendanceColors, monthlyPlan, completed, problems, nextPlan });
   }
   return weeks;
+}
+
+function getStyleMap(payload) {
+  const cells = payload?.cells || payload?.data?.cells || payload?.styles || payload?.data?.styles || [];
+  const map = new Map();
+  if (!Array.isArray(cells)) return map;
+  for (const cell of cells) {
+    const row = Number(cell?.row);
+    const col = Number(cell?.col);
+    if (!Number.isInteger(row) || !Number.isInteger(col)) continue;
+    map.set(`${row}:${col}`, {
+      background_color: cell?.background_color ?? cell?.backgroundColor ?? ''
+    });
+  }
+  return map;
 }
 
 function getSheets(payload) {
@@ -243,8 +275,9 @@ const tools = await listTools();
 console.log('腾讯文档 sheet 工具：\n' + tools.filter(t => /sheet/i.test(String(t.name || ''))).map(t => `- ${t.name}: ${String(t.description || '').replace(/\\s+/g, ' ').slice(0, 160)}`).join('\\n'));
 const infoTool = chooseTool(tools, 'info');
 const rangeTool = chooseTool(tools, 'range');
+const styleTool = tools.find(t => String(t.name).toLowerCase() === 'sheet.get_cell_style')?.name || '';
 
-console.log(`使用腾讯文档工具：${infoTool} / ${rangeTool}`);
+console.log(`使用腾讯文档工具：${infoTool} / ${rangeTool}${styleTool ? ` / ${styleTool}` : ' / 未发现颜色读取工具'}`);
 const info = await callTool(infoTool, { file_id: config.fileId });
 const sheets = getSheets(info).filter(selectedSheet);
 if (!sheets.length) throw new Error('没有读取到任何工作表。请检查文档权限，或检查 config.json 的 includeSheets/excludeSheets。');
@@ -264,7 +297,24 @@ for (const sheet of sheets) {
         sheet_id: sheet.id,
         range: config.range || 'A1:V450'
       });
-  const weeks = normalizeWeeks(getValues(payload));
+  let styleMap = new Map();
+  if (styleTool) {
+    try {
+      const full = parseA1Range(config.range || 'A1:V450');
+      const stylePayload = await callTool(styleTool, {
+        file_id: config.fileId,
+        sheet_id: sheet.id,
+        start_row: full.start_row,
+        start_col: 4,
+        end_row: full.end_row,
+        end_col: 17
+      });
+      styleMap = getStyleMap(stylePayload);
+    } catch (err) {
+      console.warn(`读取 ${sheet.name} 考勤颜色失败：${err.message || err}`);
+    }
+  }
+  const weeks = normalizeWeeks(getValues(payload), styleMap);
   people.push({ id: sheet.id, name: sheet.name, weeks });
 }
 
