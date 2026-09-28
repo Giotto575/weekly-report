@@ -92,14 +92,22 @@ async function rpc(method, params = {}) {
 }
 
 async function listTools() {
-  const result = await rpc('tools/list', {});
-  return result?.tools || [];
+  const all = [];
+  let cursor = '';
+  for (let page = 0; page < 30; page++) {
+    const result = await rpc('tools/list', cursor ? { cursor } : {});
+    all.push(...(result?.tools || []));
+    const next = result?.nextCursor ?? result?.next_cursor ?? '';
+    if (!next || next === cursor) break;
+    cursor = next;
+  }
+  return all;
 }
 
 function chooseTool(tools, kind) {
   const exactNames = kind === 'info'
-    ? ['sheet.get_sheet_info', 'sheet.getsheetinfo', 'getsheetinfo']
-    : ['sheet.get_cell_data', 'sheet.get_sheet_range', 'sheet.getsheetrange', 'getsheetrange'];
+    ? ['sheet.get_sheet_info', 'get_sheet_info', 'sheet.getsheetinfo', 'getsheetinfo']
+    : ['sheet.get_cell_data', 'get_cell_data', 'sheet.get_sheet_range', 'get_sheet_range', 'sheet.getsheetrange', 'getsheetrange'];
 
   for (const wanted of exactNames) {
     const hit = tools.find(t => String(t.name).toLowerCase() === wanted);
@@ -275,7 +283,7 @@ const tools = await listTools();
 console.log('腾讯文档 sheet 工具：\n' + tools.filter(t => /sheet/i.test(String(t.name || ''))).map(t => `- ${t.name}: ${String(t.description || '').replace(/\\s+/g, ' ').slice(0, 160)}`).join('\\n'));
 const infoTool = chooseTool(tools, 'info');
 const rangeTool = chooseTool(tools, 'range');
-const styleTool = tools.find(t => String(t.name).toLowerCase() === 'sheet.get_cell_style')?.name || '';
+const styleTool = tools.find(t => ['sheet.get_cell_style','get_cell_style'].includes(String(t.name).toLowerCase()))?.name || '';
 
 console.log(`使用腾讯文档工具：${infoTool} / ${rangeTool}${styleTool ? ` / ${styleTool}` : ' / 未发现颜色读取工具'}`);
 const info = await callTool(infoTool, { file_id: config.fileId });
@@ -285,7 +293,7 @@ if (!sheets.length) throw new Error('没有读取到任何工作表。请检查�
 const people = [];
 for (const sheet of sheets) {
   console.log(`读取：${sheet.name} (${sheet.id})`);
-  const payload = String(rangeTool).toLowerCase() === 'sheet.get_cell_data'
+  const payload = ['sheet.get_cell_data','get_cell_data'].includes(String(rangeTool).toLowerCase())
     ? await callTool(rangeTool, {
         file_id: config.fileId,
         sheet_id: sheet.id,
