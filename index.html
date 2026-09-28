@@ -76,14 +76,53 @@ function setLoading(v,msg='正在读取最新数据…'){els.app.classList.toggl
 function showError(msg){els.errorBox.style.display='block';els.errorBox.textContent=msg;els.syncDot.className='dot error';els.syncText.textContent='同步失败'}
 function clearError(){els.errorBox.style.display='none';els.errorBox.textContent=''}
 function textOrEmpty(v){return v&&String(v).trim()?e(v):'<span class="empty">暂无填写</span>'}
-function statusClass(v){const s=String(v||'').toLowerCase();if(!s)return 'neutral';if(/出勤|正常|到岗|√|✓|在岗|ok|全天/.test(s))return 'good';if(/迟到|早退|请假|外出|出差|调休|半天/.test(s))return 'warn';if(/缺勤|旷工|×|✗|未到/.test(s))return 'bad';return 'neutral'}
+function statusClass(v){const s=String(v||'').toLowerCase();if(!s)return 'neutral';if(/出勤|正常|到岗|√|✓|在岗|ok|全天/.test(s))return 'good';if(/迟到|早退|请假|外出|出差|调休|半天|面试|生理期|回老家|医院/.test(s))return 'warn';if(/缺勤|旷工|×|✗|未到/.test(s))return 'bad';return 'neutral'}
+function chinaCurrentWeekLabel(){
+  const now=new Date();
+  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{
+    timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',weekday:'short'
+  }).formatToParts(now).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
+  const y=Number(parts.year),m=Number(parts.month),d=Number(parts.day);
+  const wd={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[parts.weekday];
+  const monday=new Date(Date.UTC(y,m-1,d));
+  monday.setUTCDate(monday.getUTCDate()-((wd+6)%7));
+  const sunday=new Date(monday);
+  sunday.setUTCDate(sunday.getUTCDate()+6);
+  const mmdd=x=>String(x.getUTCMonth()+1).padStart(2,'0')+'.'+String(x.getUTCDate()).padStart(2,'0');
+  return mmdd(monday)+'-'+mmdd(sunday);
+}
+function defaultWeekIndex(weeks){
+  const current=chinaCurrentWeekLabel();
+  const idx=weeks.findIndex(w=>String(w.week||'').trim()===current);
+  if(idx>=0)return idx;
+  // 找不到本周时，优先选择离当前日期最近的一周，而不是表格最后一行的未来周次。
+  const nowParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{
+    timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'
+  }).formatToParts(new Date()).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
+  const now=Date.UTC(Number(nowParts.year),Number(nowParts.month)-1,Number(nowParts.day));
+  let best=0,bestDiff=Infinity;
+  weeks.forEach((w,i)=>{
+    const m=String(w.week||'').match(/^(\d{1,2})\.(\d{1,2})-(\d{1,2})\.(\d{1,2})$/);
+    if(!m)return;
+    for(const yy of [Number(nowParts.year)-1,Number(nowParts.year),Number(nowParts.year)+1]){
+      let sy=yy,ey=yy;
+      if(Number(m[3])<Number(m[1]))ey=yy+1;
+      const start=Date.UTC(sy,Number(m[1])-1,Number(m[2]));
+      const end=Date.UTC(ey,Number(m[3])-1,Number(m[4]));
+      const mid=(start+end)/2;
+      const diff=Math.abs(mid-now);
+      if(diff<bestDiff){bestDiff=diff;best=i}
+    }
+  });
+  return best;
+}
 function renderPeople(){const prev=state.person;els.personSelect.innerHTML=state.people.map(p=>`<option value="${e(p.id)}">${e(p.name)}</option>`).join('');if(state.people.some(p=>p.id===prev))els.personSelect.value=prev;state.person=els.personSelect.value||''}
 function renderWeeks(){els.weekSelect.innerHTML=state.weeks.map((w,i)=>`<option value="${i}">${e([w.year,w.month,w.week].filter(Boolean).join(' · '))}</option>`).join('');if(state.weekIndex>=state.weeks.length)state.weekIndex=0;els.weekSelect.value=String(state.weekIndex)}
 function renderWeek(){const w=state.weeks[state.weekIndex];if(!w){['completed','problems','nextPlan','monthlyPlan'].forEach(k=>els[k].innerHTML='<span class="empty">没有可展示的周报记录</span>');els.meta.innerHTML='';els.attendanceGrid.innerHTML='';els.attendanceSummary.textContent='';return}
   els.meta.innerHTML=[w.year,w.month,w.week].filter(Boolean).map(x=>`<span class="tag">${e(x)}</span>`).join('');
   els.completed.innerHTML=textOrEmpty(w.completed);els.problems.innerHTML=textOrEmpty(w.problems);els.nextPlan.innerHTML=textOrEmpty(w.nextPlan);els.monthlyPlan.innerHTML=textOrEmpty(w.monthlyPlan);
-  let filled=0, good=0;els.attendanceGrid.innerHTML=DAYS.map((d,di)=>{const am=w.attendance?.[di*2]||'';const pm=w.attendance?.[di*2+1]||'';[am,pm].forEach(v=>{if(String(v).trim()){filled++;if(statusClass(v)==='good')good++;}});return `<div class="day"><div class="day-name">${d}</div><div class="half"><span class="half-label">上午</span><span class="status ${statusClass(am)}">${e(am||'—')}</span></div><div class="half"><span class="half-label">下午</span><span class="status ${statusClass(pm)}">${e(pm||'—')}</span></div></div>`}).join('');
-  els.attendanceSummary.textContent=filled?`已记录 ${filled}/14 个时段${good?` · 正常/出勤 ${good}`:''}`:'本周暂无出勤记录';
+  let noted=0;els.attendanceGrid.innerHTML=DAYS.map((d,di)=>{const am=w.attendance?.[di*2]||'';const pm=w.attendance?.[di*2+1]||'';[am,pm].forEach(v=>{if(String(v).trim())noted++});const show=v=>String(v).trim()?e(v):'<span class="empty">无备注</span>';return `<div class="day"><div class="day-name">${d}</div><div class="half"><span class="half-label">上午</span><span class="status ${statusClass(am)}">${show(am)}</span></div><div class="half"><span class="half-label">下午</span><span class="status ${statusClass(pm)}">${show(pm)}</span></div></div>`}).join('');
+  els.attendanceSummary.textContent=noted?`本周有 ${noted} 个时段填写了考勤备注`:'腾讯文档本周 14 个考勤单元格均为空';
 }
 function setPerson(personId='',keepWeek=false){
   const people=state.data?.people||[];
@@ -91,8 +130,8 @@ function setPerson(personId='',keepWeek=false){
   state.people=people.map(({id,name})=>({id,name}));
   state.person=person?.id||'';
   state.weeks=person?.weeks||[];
-  if(!keepWeek) state.weekIndex=Math.max(0,state.weeks.length-1);
-  if(state.weekIndex>=state.weeks.length) state.weekIndex=Math.max(0,state.weeks.length-1);
+  if(!keepWeek) state.weekIndex=state.weeks.length?defaultWeekIndex(state.weeks):0;
+  if(state.weekIndex>=state.weeks.length) state.weekIndex=state.weeks.length?defaultWeekIndex(state.weeks):0;
   renderPeople();renderWeeks();renderWeek();
 }
 async function load(personId='',keepWeek=false){
@@ -111,7 +150,7 @@ async function load(personId='',keepWeek=false){
   }catch(err){showError('暂时没有可显示的数据：'+(err.message||String(err))+'。如果刚部署，请先在 GitHub Actions 手动运行一次“同步腾讯文档”。')}
   finally{setLoading(false)}
 }
-els.personSelect.addEventListener('change',()=>{state.person=els.personSelect.value;state.weekIndex=0;setPerson(state.person,false)});
+els.personSelect.addEventListener('change',()=>{state.person=els.personSelect.value;setPerson(state.person,false)});
 els.weekSelect.addEventListener('change',()=>{state.weekIndex=Number(els.weekSelect.value)||0;renderWeek()});
 els.refreshBtn.addEventListener('click',()=>load(state.person,true));
 load();state.timer=setInterval(()=>load(state.person,true),60000);
