@@ -18,7 +18,7 @@
     .title h1{margin:0;font-size:30px;letter-spacing:-.02em}.title p{margin:8px 0 0;color:var(--muted);font-size:14px}
     .sync{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:13px;white-space:nowrap;margin-top:8px}.dot{width:8px;height:8px;border-radius:50%;background:#20b26b;box-shadow:0 0 0 4px #e9f8f1}.dot.loading{background:#f79009;box-shadow:0 0 0 4px #fff3df}.dot.error{background:#d92d20;box-shadow:0 0 0 4px #feeceb}
     .people-panel{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:16px 18px;margin-bottom:14px}.people-title{color:var(--muted);font-size:12px;font-weight:700;margin-bottom:10px}.people-buttons{display:flex;flex-wrap:wrap;gap:9px}.person-btn{border:1px solid #d9dee8;background:#fff;color:#344054;border-radius:10px;padding:9px 15px;font-weight:700;cursor:pointer;transition:.15s ease}.person-btn:hover{border-color:#9db1ff;background:#f7f9ff}.person-btn.active{background:var(--brand);border-color:var(--brand);color:#fff;box-shadow:0 4px 12px rgba(49,94,251,.18)}.filters{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:18px;display:grid;grid-template-columns:1fr;gap:14px;align-items:end;margin-bottom:20px}
-    .field label{display:block;color:var(--muted);font-size:12px;font-weight:700;margin:0 0 7px}.field select{width:100%;height:46px;padding:0 13px;border:1px solid #d9dee8;border-radius:11px;background:#fff;color:var(--text);outline:none}.field select:focus{border-color:#8ba7ff;box-shadow:0 0 0 3px #eef3ff}
+    .field label{display:block;color:var(--muted);font-size:12px;font-weight:700;margin:0 0 7px}.field select{width:100%;height:46px;padding:0 13px;border:1px solid #d9dee8;border-radius:11px;background:#fff;color:var(--text);outline:none}.field select:focus{border-color:#8ba7ff;box-shadow:0 0 0 3px #eef3ff}.week-nav{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}.week-btn{height:46px;border:1px solid #d9dee8;border-radius:11px;background:#fff;color:#344054;padding:0 14px;font-weight:700;cursor:pointer;white-space:nowrap}.week-btn:hover:not(:disabled){border-color:#9db1ff;background:#f7f9ff}.week-btn:disabled{opacity:.4;cursor:not-allowed}
     .btn{height:46px;border:0;border-radius:11px;padding:0 18px;background:var(--brand);color:#fff;font-weight:700;cursor:pointer}.btn:hover{filter:brightness(.98)}.btn:disabled{opacity:.55;cursor:not-allowed}
     .meta{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}.tag{padding:6px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);color:#475467;font-size:12px;font-weight:700}
     .primary-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px}.card{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px;min-height:210px}.card h2{margin:0 0 14px;font-size:16px;display:flex;align-items:center;gap:9px}.accent{width:10px;height:10px;border-radius:3px}.complete{border-top:4px solid #35b77b}.problem{border-top:4px solid #f79009}.next{border-top:4px solid #528bff}.complete .accent{background:#35b77b}.problem .accent{background:#f79009}.next .accent{background:#528bff}
@@ -29,7 +29,7 @@
     .errorbox{display:none;background:#fff;border:1px solid #fecdca;border-left:4px solid #d92d20;border-radius:12px;padding:14px 16px;color:#912018;margin-bottom:18px;line-height:1.55}.loading-mask{opacity:.58;pointer-events:none}
     .footer{margin-top:20px;color:#98a2b3;font-size:12px;text-align:center}
     @media(max-width:900px){.primary-grid{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.att-grid{grid-template-columns:repeat(4,1fr)}}
-    @media(max-width:620px){.wrap{padding:24px 14px 40px}.topbar{display:block}.sync{margin-top:14px}.filters{grid-template-columns:1fr}.people-buttons{gap:7px}.person-btn{padding:8px 11px;font-size:13px}.att-grid{grid-template-columns:1fr 1fr}.title h1{font-size:25px}.card{min-height:auto}}
+    @media(max-width:620px){.wrap{padding:24px 14px 40px}.topbar{display:block}.sync{margin-top:14px}.filters{grid-template-columns:1fr}.people-buttons{gap:7px}.person-btn{padding:8px 11px;font-size:13px}.week-nav{grid-template-columns:1fr 1fr}.week-nav select{grid-column:1/-1;grid-row:1}.week-btn{grid-row:2}.att-grid{grid-template-columns:1fr 1fr}.title h1{font-size:25px}.card{min-height:auto}}
   </style>
 </head>
 <body>
@@ -47,7 +47,14 @@
     </section>
 
     <section class="filters" id="filters">
-      <div class="field"><label for="weekSelect">周次</label><select id="weekSelect"></select></div>
+      <div class="field">
+        <label for="weekSelect">周次</label>
+        <div class="week-nav">
+          <button type="button" class="week-btn" id="prevWeekBtn">← 上一周</button>
+          <select id="weekSelect"></select>
+          <button type="button" class="week-btn" id="nextWeekBtn">下一周 →</button>
+        </div>
+      </div>
     </section>
 
     <div class="meta" id="meta"></div>
@@ -71,7 +78,7 @@
   </main>
 
 <script>
-const els = Object.fromEntries(['app','filters','peopleButtons','weekSelect','meta','completed','problems','nextPlan','attendanceGrid','attendanceSummary','monthlyPlan','syncDot','syncText','errorBox'].map(id=>[id,document.getElementById(id)]));
+const els = Object.fromEntries(['app','filters','peopleButtons','weekSelect','prevWeekBtn','nextWeekBtn','meta','completed','problems','nextPlan','attendanceGrid','attendanceSummary','monthlyPlan','syncDot','syncText','errorBox'].map(id=>[id,document.getElementById(id)]));
 let state={people:[],weeks:[],person:'',weekIndex:0,timer:null,data:null};
 const DAYS=['周一','周二','周三','周四','周五','周六','周日'];
 function e(s=''){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
@@ -114,7 +121,13 @@ function renderPeople(){
   if(!state.people.some(p=>p.id===prev))state.person=state.people[0]?.id||'';
   els.peopleButtons.innerHTML=state.people.map(p=>`<button type="button" class="person-btn${p.id===state.person?' active':''}" data-person-id="${e(p.id)}">${e(p.name.trim())}</button>`).join('');
 }
-function renderWeeks(){els.weekSelect.innerHTML=state.weeks.map((w,i)=>{const y=w.year?String(w.year)+'年':'';return `<option value="${i}">${e([y,w.month,w.week].filter(Boolean).join(' · '))}</option>`}).join('');if(state.weekIndex>=state.weeks.length)state.weekIndex=0;els.weekSelect.value=String(state.weekIndex)}
+function renderWeeks(){
+  els.weekSelect.innerHTML=state.weeks.map((w,i)=>{const y=w.year?String(w.year)+'年':'';return `<option value="${i}">${e([y,w.month,w.week].filter(Boolean).join(' · '))}</option>`}).join('');
+  if(state.weekIndex>=state.weeks.length)state.weekIndex=0;
+  els.weekSelect.value=String(state.weekIndex);
+  els.prevWeekBtn.disabled=!state.weeks.length||state.weekIndex<=0;
+  els.nextWeekBtn.disabled=!state.weeks.length||state.weekIndex>=state.weeks.length-1;
+}
 function renderWeek(){const w=state.weeks[state.weekIndex];if(!w){['completed','problems','nextPlan','monthlyPlan'].forEach(k=>els[k].innerHTML='<span class="empty">没有可展示的周报记录</span>');els.meta.innerHTML='';els.attendanceGrid.innerHTML='';els.attendanceSummary.textContent='';return}
   els.meta.innerHTML=[w.year?String(w.year)+'年':'',w.month,w.week].filter(Boolean).map(x=>`<span class="tag">${e(x)}</span>`).join('');
   els.completed.innerHTML=textOrEmpty(w.completed);els.problems.innerHTML=textOrEmpty(w.problems);els.nextPlan.innerHTML=textOrEmpty(w.nextPlan);els.monthlyPlan.innerHTML=textOrEmpty(w.monthlyPlan);
@@ -158,7 +171,9 @@ async function load(personId='',keepWeek=false){
   finally{setLoading(false)}
 }
 els.peopleButtons.addEventListener('click',ev=>{const btn=ev.target.closest('.person-btn');if(!btn)return;state.person=btn.dataset.personId||'';setPerson(state.person,false)});
-els.weekSelect.addEventListener('change',()=>{state.weekIndex=Number(els.weekSelect.value)||0;renderWeek()});
+els.weekSelect.addEventListener('change',()=>{state.weekIndex=Number(els.weekSelect.value)||0;renderWeeks();renderWeek()});
+els.prevWeekBtn.addEventListener('click',()=>{if(state.weekIndex<=0)return;state.weekIndex--;renderWeeks();renderWeek()});
+els.nextWeekBtn.addEventListener('click',()=>{if(state.weekIndex>=state.weeks.length-1)return;state.weekIndex++;renderWeeks();renderWeek()});
 
 load();state.timer=setInterval(()=>load(state.person,true),60000);
 </script>
