@@ -98,63 +98,16 @@ async function listTools() {
 
 function chooseTool(tools, kind) {
   const exactNames = kind === 'info'
-    ? [
-        'sheet.get_sheet_info',
-        'sheet.getsheetinfo',
-        'getsheetinfo',
-        'sheet.get_info'
-      ]
-    : [
-        'sheet.get_sheet_range',
-        'sheet.getsheetrange',
-        'getsheetrange',
-        'sheet.get_range',
-        'sheet.get_range_data',
-        'sheet.read_range',
-        'sheet.read_sheet_range'
-      ];
+    ? ['sheet.get_sheet_info', 'sheet.getsheetinfo', 'getsheetinfo']
+    : ['sheet.get_cell_data', 'sheet.get_sheet_range', 'sheet.getsheetrange', 'getsheetrange'];
 
   for (const wanted of exactNames) {
     const hit = tools.find(t => String(t.name).toLowerCase() === wanted);
     if (hit) return hit.name;
   }
 
-  const candidates = tools.filter(t => {
-    const name = String(t.name || '').toLowerCase();
-    const desc = String(t.description || '').toLowerCase();
-    const s = `${name} ${desc}`;
-    const schema = t.inputSchema || t.input_schema || {};
-    const props = schema.properties || {};
-    const propNames = Object.keys(props).map(k => k.toLowerCase());
-
-    if (kind === 'info') {
-      return /sheet/.test(name) &&
-        /(get|read|info|query|获取|读取|查询|信息)/.test(s) &&
-        /(info|sheet|工作表|子表)/.test(s) &&
-        !/(clear|style|format|update|write|delete|remove|batch|set|add|create|merge|insert|清除|样式|更新|删除|写入|新增)/.test(s);
-    }
-
-    const hasRangeArg = propNames.includes('range') || propNames.some(k => /range/.test(k));
-    const hasFileArg = propNames.includes('file_id') || propNames.includes('fileid') || propNames.some(k => /file.*id/.test(k));
-    return /sheet/.test(name) &&
-      /range/.test(s) &&
-      (hasRangeArg || /range/.test(name)) &&
-      (hasFileArg || /sheet/.test(name)) &&
-      /(get|read|fetch|query|获取|读取|查询)/.test(s) &&
-      !/(clear|style|format|update|write|delete|remove|batch|set|add|create|merge|insert|清除|样式|更新|删除|写入|新增)/.test(s);
-  });
-
-  if (candidates.length) return candidates[0].name;
-
-  const sheetTools = tools
-    .filter(t => /sheet/i.test(String(t.name || '')))
-    .map(t => `${t.name}: ${String(t.description || '').replace(/\s+/g, ' ').slice(0, 140)}`)
-    .join('\n');
-
-  throw new Error(
-    `没有识别到腾讯文档 ${kind === 'info' ? 'GetSheetInfo' : 'GetSheetRange'} 读取工具。\n` +
-    `当前 sheet 工具：\n${sheetTools || '无'}`
-  );
+  const available = tools.map(t => t.name).filter(n => /sheet/i.test(String(n))).join(', ');
+  throw new Error(`没有识别到腾讯文档 ${kind === 'info' ? 'GetSheetInfo' : 'GetCellData'} 读取工具。当前与 sheet 相关工具：${available || '无'}`);
 }
 
 function unpackToolResult(result) {
@@ -179,7 +132,7 @@ function scalar(v) {
   if (['string', 'number', 'boolean'].includes(typeof v)) return String(v);
   if (Array.isArray(v)) return v.map(scalar).filter(Boolean).join('\n');
   if (typeof v === 'object') {
-    for (const k of ['formatted_value','formattedValue','display_value','displayValue','text','content','value','v']) {
+    for (const k of ['formatted_value','formattedValue','display_value','displayValue','string_value','stringValue','number_value','numberValue','bool_value','boolValue','text','content','value','v']) {
       if (v[k] != null) return scalar(v[k]);
     }
   }
@@ -229,7 +182,52 @@ function getValues(payload) {
     payload?.data?.values,
   ];
   const matrix = candidates.find(Array.isArray);
-  return matrix || [];
+  if (matrix) return matrix;
+
+  const cells = payload?.cells || payload?.data?.cells || payload?.cell_data?.cells || payload?.cellData?.cells;
+  if (!Array.isArray(cells)) return [];
+
+  let maxRow = -1, maxCol = -1;
+  for (const cell of cells) {
+    maxRow = Math.max(maxRow, Number(cell?.row ?? -1));
+    maxCol = Math.max(maxCol, Number(cell?.col ?? -1));
+  }
+  if (maxRow < 0 || maxCol < 0) return [];
+
+  const rows = Array.from({ length: maxRow + 1 }, () => Array(maxCol + 1).fill(''));
+  for (const cell of cells) {
+    const r = Number(cell?.row);
+    const col = Number(cell?.col);
+    if (!Number.isInteger(r) || !Number.isInteger(col) || r < 0 || col < 0) continue;
+    let value = '';
+    if (cell?.string_value != null) value = cell.string_value;
+    else if (cell?.stringValue != null) value = cell.stringValue;
+    else if (cell?.number_value != null) value = cell.number_value;
+    else if (cell?.numberValue != null) value = cell.numberValue;
+    else if (cell?.bool_value != null) value = cell.bool_value;
+    else if (cell?.boolValue != null) value = cell.boolValue;
+    else if (cell?.value != null) value = cell.value;
+    else if (cell?.formula != null) value = cell.formula;
+    rows[r][col] = value;
+  }
+  return rows;
+}
+
+function columnToIndex(letters) {
+  let n = 0;
+  for (const ch of String(letters).toUpperCase()) n = n * 26 + ch.charCodeAt(0) - 64;
+  return n - 1;
+}
+
+function parseA1Range(range) {
+  const m = String(range || 'A1:V450').match(/^([A-Z]+)(\d+):([A-Z]+)(\d+)$/i);
+  if (!m) return { start_row: 0, start_col: 0, end_row: 449, end_col: 21 };
+  return {
+    start_row: Number(m[2]) - 1,
+    start_col: columnToIndex(m[1]),
+    end_row: Number(m[4]) - 1,
+    end_col: columnToIndex(m[3]),
+  };
 }
 
 function selectedSheet(sheet) {
@@ -254,11 +252,18 @@ if (!sheets.length) throw new Error('没有读取到任何工作表。请检查�
 const people = [];
 for (const sheet of sheets) {
   console.log(`读取：${sheet.name} (${sheet.id})`);
-  const payload = await callTool(rangeTool, {
-    file_id: config.fileId,
-    sheet_id: sheet.id,
-    range: config.range || 'A1:V450'
-  });
+  const payload = String(rangeTool).toLowerCase() === 'sheet.get_cell_data'
+    ? await callTool(rangeTool, {
+        file_id: config.fileId,
+        sheet_id: sheet.id,
+        ...parseA1Range(config.range || 'A1:V450'),
+        return_csv: false
+      })
+    : await callTool(rangeTool, {
+        file_id: config.fileId,
+        sheet_id: sheet.id,
+        range: config.range || 'A1:V450'
+      });
   const weeks = normalizeWeeks(getValues(payload));
   people.push({ id: sheet.id, name: sheet.name, weeks });
 }
