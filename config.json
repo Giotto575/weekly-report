@@ -2,5 +2,7 @@
   "fileId": "DUXNBVnVMTG5tb1RH",
   "range": "A1:V450",
   "includeSheets": [],
-  "excludeSheets": []
+  "excludeSheets": [
+    "会议纪要"
+  ]
 }
