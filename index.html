@@ -24,7 +24,7 @@
     .primary-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px}.card{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px;min-height:210px}.card h2{margin:0 0 14px;font-size:16px;display:flex;align-items:center;gap:9px}.accent{width:10px;height:10px;border-radius:3px}.complete{border-top:4px solid #35b77b}.problem{border-top:4px solid #f79009}.next{border-top:4px solid #528bff}.complete .accent{background:#35b77b}.problem .accent{background:#f79009}.next .accent{background:#528bff}
     .content{white-space:pre-wrap;line-height:1.75;font-size:15px;color:#344054}.empty{color:#98a2b3;font-style:italic}
     .attendance{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px;margin-bottom:18px}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:15px}.section-head h2{margin:0;font-size:17px}.section-head span{color:var(--muted);font-size:12px}
-    .att-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}.day{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fbfcfe}.day-name{text-align:center;padding:9px 6px;font-weight:800;font-size:13px;border-bottom:1px solid var(--line);background:#f8fafc}.half{display:grid;grid-template-columns:42px 1fr;gap:6px;align-items:center;padding:10px 8px;min-height:44px}.half+ .half{border-top:1px solid #edf0f4}.half-label{font-size:11px;color:var(--muted)}.status{font-size:12px;font-weight:700;word-break:break-word}.status.good{color:var(--green)}.status.warn{color:var(--orange)}.status.bad{color:var(--red)}.status.neutral{color:#475467}
+    .att-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}.day{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fbfcfe}.day-name{text-align:center;padding:9px 6px;font-weight:800;font-size:13px;border-bottom:1px solid var(--line);background:#f8fafc}.half{display:grid;grid-template-columns:42px 1fr;gap:6px;align-items:center;padding:10px 8px;min-height:44px}.half+ .half{border-top:1px solid #edf0f4}.half-label{font-size:11px;color:var(--muted)}.status{font-size:12px;font-weight:700;word-break:break-word}.status.good{color:var(--green)}.status.warn{color:var(--orange)}.status.bad{color:var(--red)}.status.neutral{color:#475467}.half.color-marked{border-radius:8px;margin:5px 6px;padding:8px 6px}.half.color-marked .half-label,.half.color-marked .status{color:#172033;text-shadow:0 1px 0 rgba(255,255,255,.55)}
     .secondary{display:grid;grid-template-columns:1fr;gap:16px}.monthly{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px}.monthly h2{margin:0 0 13px;font-size:16px}
     .errorbox{display:none;background:#fff;border:1px solid #fecdca;border-left:4px solid #d92d20;border-radius:12px;padding:14px 16px;color:#912018;margin-bottom:18px;line-height:1.55}.loading-mask{opacity:.58;pointer-events:none}
     .footer{margin-top:20px;color:#98a2b3;font-size:12px;text-align:center}
@@ -121,8 +121,24 @@ function renderWeeks(){els.weekSelect.innerHTML=state.weeks.map((w,i)=>`<option 
 function renderWeek(){const w=state.weeks[state.weekIndex];if(!w){['completed','problems','nextPlan','monthlyPlan'].forEach(k=>els[k].innerHTML='<span class="empty">没有可展示的周报记录</span>');els.meta.innerHTML='';els.attendanceGrid.innerHTML='';els.attendanceSummary.textContent='';return}
   els.meta.innerHTML=[w.year,w.month,w.week].filter(Boolean).map(x=>`<span class="tag">${e(x)}</span>`).join('');
   els.completed.innerHTML=textOrEmpty(w.completed);els.problems.innerHTML=textOrEmpty(w.problems);els.nextPlan.innerHTML=textOrEmpty(w.nextPlan);els.monthlyPlan.innerHTML=textOrEmpty(w.monthlyPlan);
-  let noted=0;els.attendanceGrid.innerHTML=DAYS.map((d,di)=>{const am=w.attendance?.[di*2]||'';const pm=w.attendance?.[di*2+1]||'';[am,pm].forEach(v=>{if(String(v).trim())noted++});const show=v=>String(v).trim()?e(v):'<span class="empty">无备注</span>';return `<div class="day"><div class="day-name">${d}</div><div class="half"><span class="half-label">上午</span><span class="status ${statusClass(am)}">${show(am)}</span></div><div class="half"><span class="half-label">下午</span><span class="status ${statusClass(pm)}">${show(pm)}</span></div></div>`}).join('');
-  els.attendanceSummary.textContent=noted?`本周有 ${noted} 个时段填写了考勤备注`:'腾讯文档本周 14 个考勤单元格均为空';
+  let noted=0,colorMarked=0;
+  els.attendanceGrid.innerHTML=DAYS.map((d,di)=>{
+    const am=w.attendance?.[di*2]||'',pm=w.attendance?.[di*2+1]||'';
+    const amColor=w.attendanceColors?.[di*2]||'',pmColor=w.attendanceColors?.[di*2+1]||'';
+    [am,pm].forEach(v=>{if(String(v).trim())noted++});
+    [amColor,pmColor].forEach(v=>{if(String(v).trim())colorMarked++});
+    const half=(label,value,color)=>{
+      const hasColor=Boolean(color);
+      const txt=String(value).trim()?e(value):(hasColor?'已标记':'无标记');
+      const style=hasColor?` style="background:${e(color)}"`:'';
+      return `<div class="half${hasColor?' color-marked':''}"${style}><span class="half-label">${label}</span><span class="status ${statusClass(value)}">${txt}</span></div>`;
+    };
+    return `<div class="day"><div class="day-name">${d}</div>${half('上午',am,amColor)}${half('下午',pm,pmColor)}</div>`;
+  }).join('');
+  if(colorMarked&&noted)els.attendanceSummary.textContent=`颜色标记 ${colorMarked}/14 · 文字备注 ${noted}/14`;
+  else if(colorMarked)els.attendanceSummary.textContent=`已同步腾讯文档颜色标记 ${colorMarked}/14`;
+  else if(noted)els.attendanceSummary.textContent=`本周有 ${noted} 个时段填写了考勤备注`;
+  else els.attendanceSummary.textContent='本周暂无文字或颜色考勤标记';
 }
 function setPerson(personId='',keepWeek=false){
   const people=state.data?.people||[];
