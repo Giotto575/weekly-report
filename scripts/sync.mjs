@@ -190,6 +190,77 @@ function normalizeWeeks(values, styleMap = new Map()) {
   return weeks;
 }
 
+
+function parseWeekStart(week) {
+  const m = String(week || '').trim().match(/^(\d{1,2})\.(\d{1,2})-(\d{1,2})\.(\d{1,2})$/);
+  if (!m) return null;
+  return { sm: Number(m[1]), sd: Number(m[2]), em: Number(m[3]), ed: Number(m[4]) };
+}
+
+function chinaTodayParts() {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat('en-US', {
+      timeZone: 'Asia/Shanghai',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(new Date())
+      .filter(p => p.type !== 'literal')
+      .map(p => [p.type, p.value])
+  );
+  return { year: Number(parts.year), month: Number(parts.month), day: Number(parts.day) };
+}
+
+function fillYears(weeks) {
+  if (!weeks.length) return weeks;
+  const today = chinaTodayParts();
+  const nowTs = Date.UTC(today.year, today.month - 1, today.day);
+
+  let anchor = -1;
+  let anchorYear = today.year;
+  let bestDiff = Infinity;
+
+  for (let i = 0; i < weeks.length; i++) {
+    const p = parseWeekStart(weeks[i].week);
+    if (!p) continue;
+    for (const y of [today.year - 1, today.year, today.year + 1]) {
+      const ey = p.em < p.sm ? y + 1 : y;
+      const start = Date.UTC(y, p.sm - 1, p.sd);
+      const end = Date.UTC(ey, p.em - 1, p.ed);
+      const mid = (start + end) / 2;
+      const diff = Math.abs(mid - nowTs);
+      if (diff < bestDiff) {
+        bestDiff = diff;
+        anchor = i;
+        anchorYear = y;
+      }
+    }
+  }
+
+  if (anchor < 0) return weeks;
+
+  const years = Array(weeks.length).fill('');
+  years[anchor] = String(anchorYear);
+
+  for (let i = anchor - 1; i >= 0; i--) {
+    const cur = parseWeekStart(weeks[i].week);
+    const next = parseWeekStart(weeks[i + 1].week);
+    let y = Number(years[i + 1]);
+    if (cur && next && cur.sm > next.sm) y -= 1;
+    years[i] = String(y);
+  }
+
+  for (let i = anchor + 1; i < weeks.length; i++) {
+    const prev = parseWeekStart(weeks[i - 1].week);
+    const cur = parseWeekStart(weeks[i].week);
+    let y = Number(years[i - 1]);
+    if (prev && cur && cur.sm < prev.sm) y += 1;
+    years[i] = String(y);
+  }
+
+  return weeks.map((w, i) => ({ ...w, year: w.year || years[i] }));
+}
+
 function getStyleMap(payload) {
   const cells = payload?.cells || payload?.data?.cells || payload?.styles || payload?.data?.styles || [];
   const map = new Map();
@@ -322,7 +393,7 @@ for (const sheet of sheets) {
       console.warn(`读取 ${sheet.name} 考勤颜色失败：${err.message || err}`);
     }
   }
-  const weeks = normalizeWeeks(getValues(payload), styleMap);
+  const weeks = fillYears(normalizeWeeks(getValues(payload), styleMap));
   people.push({ id: sheet.id, name: sheet.name, weeks });
 }
 
