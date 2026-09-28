@@ -77,7 +77,7 @@ function showError(msg){els.errorBox.style.display='block';els.errorBox.textCont
 function clearError(){els.errorBox.style.display='none';els.errorBox.textContent=''}
 function textOrEmpty(v){return v&&String(v).trim()?e(v):'<span class="empty">暂无填写</span>'}
 function statusClass(v){const s=String(v||'').toLowerCase();if(!s)return 'neutral';if(/出勤|正常|到岗|√|✓|在岗|ok|全天/.test(s))return 'good';if(/迟到|早退|请假|外出|出差|调休|半天|面试|生理期|回老家|医院/.test(s))return 'warn';if(/缺勤|旷工|×|✗|未到/.test(s))return 'bad';return 'neutral'}
-function chinaCurrentWeekLabel(){
+function chinaTargetWeek(offsetWeeks=-1){
   const now=new Date();
   const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{
     timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',weekday:'short'
@@ -85,60 +85,44 @@ function chinaCurrentWeekLabel(){
   const y=Number(parts.year),m=Number(parts.month),d=Number(parts.day);
   const wd={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[parts.weekday];
   const monday=new Date(Date.UTC(y,m-1,d));
-  monday.setUTCDate(monday.getUTCDate()-((wd+6)%7));
+  monday.setUTCDate(monday.getUTCDate()-((wd+6)%7)+offsetWeeks*7);
   const sunday=new Date(monday);
   sunday.setUTCDate(sunday.getUTCDate()+6);
   const mmdd=x=>String(x.getUTCMonth()+1).padStart(2,'0')+'.'+String(x.getUTCDate()).padStart(2,'0');
-  return mmdd(monday)+'-'+mmdd(sunday);
+  return {label:mmdd(monday)+'-'+mmdd(sunday),year:monday.getUTCFullYear(),start:monday.getTime()};
 }
 function defaultWeekIndex(weeks){
-  const current=chinaCurrentWeekLabel();
-  const idx=weeks.findIndex(w=>String(w.week||'').trim()===current);
-  if(idx>=0)return idx;
-  // 找不到本周时，优先选择离当前日期最近的一周，而不是表格最后一行的未来周次。
-  const nowParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{
-    timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'
-  }).formatToParts(new Date()).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
-  const now=Date.UTC(Number(nowParts.year),Number(nowParts.month)-1,Number(nowParts.day));
+  const target=chinaTargetWeek(-1);
+  const exact=weeks.findIndex(w=>String(w.week||'').trim()===target.label&&String(w.year||'')===String(target.year));
+  if(exact>=0)return exact;
   let best=0,bestDiff=Infinity;
   weeks.forEach((w,i)=>{
     const m=String(w.week||'').match(/^(\d{1,2})\.(\d{1,2})-(\d{1,2})\.(\d{1,2})$/);
-    if(!m)return;
-    for(const yy of [Number(nowParts.year)-1,Number(nowParts.year),Number(nowParts.year)+1]){
-      let sy=yy,ey=yy;
-      if(Number(m[3])<Number(m[1]))ey=yy+1;
-      const start=Date.UTC(sy,Number(m[1])-1,Number(m[2]));
-      const end=Date.UTC(ey,Number(m[3])-1,Number(m[4]));
-      const mid=(start+end)/2;
-      const diff=Math.abs(mid-now);
-      if(diff<bestDiff){bestDiff=diff;best=i}
-    }
+    const yy=Number(w.year);
+    if(!m||!yy)return;
+    const ts=Date.UTC(yy,Number(m[1])-1,Number(m[2]));
+    const diff=Math.abs(ts-target.start);
+    if(diff<bestDiff){bestDiff=diff;best=i}
   });
   return best;
 }
 function renderPeople(){const prev=state.person;els.personSelect.innerHTML=state.people.map(p=>`<option value="${e(p.id)}">${e(p.name)}</option>`).join('');if(state.people.some(p=>p.id===prev))els.personSelect.value=prev;state.person=els.personSelect.value||''}
-function renderWeeks(){els.weekSelect.innerHTML=state.weeks.map((w,i)=>`<option value="${i}">${e([w.year,w.month,w.week].filter(Boolean).join(' · '))}</option>`).join('');if(state.weekIndex>=state.weeks.length)state.weekIndex=0;els.weekSelect.value=String(state.weekIndex)}
+function renderWeeks(){els.weekSelect.innerHTML=state.weeks.map((w,i)=>{const y=w.year?String(w.year)+'年':'';return `<option value="${i}">${e([y,w.month,w.week].filter(Boolean).join(' · '))}</option>`}).join('');if(state.weekIndex>=state.weeks.length)state.weekIndex=0;els.weekSelect.value=String(state.weekIndex)}
 function renderWeek(){const w=state.weeks[state.weekIndex];if(!w){['completed','problems','nextPlan','monthlyPlan'].forEach(k=>els[k].innerHTML='<span class="empty">没有可展示的周报记录</span>');els.meta.innerHTML='';els.attendanceGrid.innerHTML='';els.attendanceSummary.textContent='';return}
-  els.meta.innerHTML=[w.year,w.month,w.week].filter(Boolean).map(x=>`<span class="tag">${e(x)}</span>`).join('');
+  els.meta.innerHTML=[w.year?String(w.year)+'年':'',w.month,w.week].filter(Boolean).map(x=>`<span class="tag">${e(x)}</span>`).join('');
   els.completed.innerHTML=textOrEmpty(w.completed);els.problems.innerHTML=textOrEmpty(w.problems);els.nextPlan.innerHTML=textOrEmpty(w.nextPlan);els.monthlyPlan.innerHTML=textOrEmpty(w.monthlyPlan);
-  let noted=0,colorMarked=0;
   els.attendanceGrid.innerHTML=DAYS.map((d,di)=>{
     const am=w.attendance?.[di*2]||'',pm=w.attendance?.[di*2+1]||'';
     const amColor=w.attendanceColors?.[di*2]||'',pmColor=w.attendanceColors?.[di*2+1]||'';
-    [am,pm].forEach(v=>{if(String(v).trim())noted++});
-    [amColor,pmColor].forEach(v=>{if(String(v).trim())colorMarked++});
     const half=(label,value,color)=>{
       const hasColor=Boolean(color);
-      const txt=String(value).trim()?e(value):(hasColor?'已标记':'无标记');
+      const txt=String(value).trim()?e(value):'-';
       const style=hasColor?` style="background:${e(color)}"`:'';
       return `<div class="half${hasColor?' color-marked':''}"${style}><span class="half-label">${label}</span><span class="status ${statusClass(value)}">${txt}</span></div>`;
     };
     return `<div class="day"><div class="day-name">${d}</div>${half('上午',am,amColor)}${half('下午',pm,pmColor)}</div>`;
   }).join('');
-  if(colorMarked&&noted)els.attendanceSummary.textContent=`颜色标记 ${colorMarked}/14 · 文字备注 ${noted}/14`;
-  else if(colorMarked)els.attendanceSummary.textContent=`已同步腾讯文档颜色标记 ${colorMarked}/14`;
-  else if(noted)els.attendanceSummary.textContent=`本周有 ${noted} 个时段填写了考勤备注`;
-  else els.attendanceSummary.textContent='本周暂无文字或颜色考勤标记';
+  els.attendanceSummary.textContent='绿色 = 出勤 · 灰色 = 周末/节假日 · 红色 = 请假';
 }
 function setPerson(personId='',keepWeek=false){
   const people=state.data?.people||[];
