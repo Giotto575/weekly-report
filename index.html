@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="腾讯文档在线周报与考勤看板" />
+  <title>团队周报看板</title>
+  <style>
+    :root {
+      --bg:#f5f7fb; --panel:#fff; --text:#172033; --muted:#667085; --line:#e7eaf0;
+      --brand:#315efb; --brand-soft:#eef3ff; --green:#16865c; --green-soft:#edfbf5;
+      --orange:#b95c00; --orange-soft:#fff5e8; --blue:#2463d4; --blue-soft:#edf4ff;
+      --red:#b42318; --shadow:0 10px 30px rgba(16,24,40,.06); --radius:18px;
+    }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,-apple-system,sans-serif}
+    button,select{font:inherit} .wrap{max-width:1240px;margin:0 auto;padding:34px 22px 60px}
+    .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;margin-bottom:24px}
+    .title h1{margin:0;font-size:30px;letter-spacing:-.02em}.title p{margin:8px 0 0;color:var(--muted);font-size:14px}
+    .sync{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:13px;white-space:nowrap;margin-top:8px}.dot{width:8px;height:8px;border-radius:50%;background:#20b26b;box-shadow:0 0 0 4px #e9f8f1}.dot.loading{background:#f79009;box-shadow:0 0 0 4px #fff3df}.dot.error{background:#d92d20;box-shadow:0 0 0 4px #feeceb}
+    .filters{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:18px;display:grid;grid-template-columns:1fr 1.35fr auto;gap:14px;align-items:end;margin-bottom:20px}
+    .field label{display:block;color:var(--muted);font-size:12px;font-weight:700;margin:0 0 7px}.field select{width:100%;height:46px;padding:0 13px;border:1px solid #d9dee8;border-radius:11px;background:#fff;color:var(--text);outline:none}.field select:focus{border-color:#8ba7ff;box-shadow:0 0 0 3px #eef3ff}
+    .btn{height:46px;border:0;border-radius:11px;padding:0 18px;background:var(--brand);color:#fff;font-weight:700;cursor:pointer}.btn:hover{filter:brightness(.98)}.btn:disabled{opacity:.55;cursor:not-allowed}
+    .meta{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}.tag{padding:6px 10px;border-radius:999px;background:#fff;border:1px solid var(--line);color:#475467;font-size:12px;font-weight:700}
+    .primary-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px}.card{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px;min-height:210px}.card h2{margin:0 0 14px;font-size:16px;display:flex;align-items:center;gap:9px}.accent{width:10px;height:10px;border-radius:3px}.complete{border-top:4px solid #35b77b}.problem{border-top:4px solid #f79009}.next{border-top:4px solid #528bff}.complete .accent{background:#35b77b}.problem .accent{background:#f79009}.next .accent{background:#528bff}
+    .content{white-space:pre-wrap;line-height:1.75;font-size:15px;color:#344054}.empty{color:#98a2b3;font-style:italic}
+    .attendance{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px;margin-bottom:18px}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:15px}.section-head h2{margin:0;font-size:17px}.section-head span{color:var(--muted);font-size:12px}
+    .att-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}.day{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fbfcfe}.day-name{text-align:center;padding:9px 6px;font-weight:800;font-size:13px;border-bottom:1px solid var(--line);background:#f8fafc}.half{display:grid;grid-template-columns:42px 1fr;gap:6px;align-items:center;padding:10px 8px;min-height:44px}.half+ .half{border-top:1px solid #edf0f4}.half-label{font-size:11px;color:var(--muted)}.status{font-size:12px;font-weight:700;word-break:break-word}.status.good{color:var(--green)}.status.warn{color:var(--orange)}.status.bad{color:var(--red)}.status.neutral{color:#475467}
+    .secondary{display:grid;grid-template-columns:1fr;gap:16px}.monthly{background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius);padding:20px}.monthly h2{margin:0 0 13px;font-size:16px}
+    .errorbox{display:none;background:#fff;border:1px solid #fecdca;border-left:4px solid #d92d20;border-radius:12px;padding:14px 16px;color:#912018;margin-bottom:18px;line-height:1.55}.loading-mask{opacity:.58;pointer-events:none}
+    .footer{margin-top:20px;color:#98a2b3;font-size:12px;text-align:center}
+    @media(max-width:900px){.primary-grid{grid-template-columns:1fr}.filters{grid-template-columns:1fr 1fr}.filters .btn{grid-column:1/-1}.att-grid{grid-template-columns:repeat(4,1fr)}}
+    @media(max-width:620px){.wrap{padding:24px 14px 40px}.topbar{display:block}.sync{margin-top:14px}.filters{grid-template-columns:1fr}.filters .btn{grid-column:auto}.att-grid{grid-template-columns:1fr 1fr}.title h1{font-size:25px}.card{min-height:auto}}
+  </style>
+</head>
+<body>
+  <main class="wrap" id="app">
+    <div class="topbar">
+      <div class="title"><h1>团队周报看板</h1><p>腾讯文档自动同步 · 选择人员与周次查看周报和出勤</p></div>
+      <div class="sync"><span class="dot" id="syncDot"></span><span id="syncText">准备同步</span></div>
+    </div>
+
+    <div class="errorbox" id="errorBox"></div>
+
+    <section class="filters" id="filters">
+      <div class="field"><label for="personSelect">人员</label><select id="personSelect"></select></div>
+      <div class="field"><label for="weekSelect">周次</label><select id="weekSelect"></select></div>
+      <button class="btn" id="refreshBtn">刷新数据</button>
+    </section>
+
+    <div class="meta" id="meta"></div>
+
+    <section class="primary-grid">
+      <article class="card complete"><h2><span class="accent"></span>本周完成情况</h2><div class="content" id="completed"></div></article>
+      <article class="card problem"><h2><span class="accent"></span>所遇到的问题</h2><div class="content" id="problems"></div></article>
+      <article class="card next"><h2><span class="accent"></span>下周工作计划</h2><div class="content" id="nextPlan"></div></article>
+    </section>
+
+    <section class="attendance">
+      <div class="section-head"><h2>本周出勤情况</h2><span id="attendanceSummary"></span></div>
+      <div class="att-grid" id="attendanceGrid"></div>
+    </section>
+
+    <section class="secondary">
+      <article class="monthly"><h2>月度计划</h2><div class="content" id="monthlyPlan"></div></article>
+    </section>
+
+    <div class="footer">数据只读展示 · 页面不会修改腾讯文档内容</div>
+  </main>
+
+<script>
+const els = Object.fromEntries(['app','filters','personSelect','weekSelect','refreshBtn','meta','completed','problems','nextPlan','attendanceGrid','attendanceSummary','monthlyPlan','syncDot','syncText','errorBox'].map(id=>[id,document.getElementById(id)]));
+let state={people:[],weeks:[],person:'',weekIndex:0,timer:null,data:null};
+const DAYS=['周一','周二','周三','周四','周五','周六','周日'];
+function e(s=''){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+function setLoading(v,msg='正在读取最新数据…'){els.app.classList.toggle('loading-mask',v);els.refreshBtn.disabled=v;els.syncDot.className='dot'+(v?' loading':'');els.syncText.textContent=v?msg:els.syncText.textContent}
+function showError(msg){els.errorBox.style.display='block';els.errorBox.textContent=msg;els.syncDot.className='dot error';els.syncText.textContent='同步失败'}
+function clearError(){els.errorBox.style.display='none';els.errorBox.textContent=''}
+function textOrEmpty(v){return v&&String(v).trim()?e(v):'<span class="empty">暂无填写</span>'}
+function statusClass(v){const s=String(v||'').toLowerCase();if(!s)return 'neutral';if(/出勤|正常|到岗|√|✓|在岗|ok|全天/.test(s))return 'good';if(/迟到|早退|请假|外出|出差|调休|半天/.test(s))return 'warn';if(/缺勤|旷工|×|✗|未到/.test(s))return 'bad';return 'neutral'}
+function renderPeople(){const prev=state.person;els.personSelect.innerHTML=state.people.map(p=>`<option value="${e(p.id)}">${e(p.name)}</option>`).join('');if(state.people.some(p=>p.id===prev))els.personSelect.value=prev;state.person=els.personSelect.value||''}
+function renderWeeks(){els.weekSelect.innerHTML=state.weeks.map((w,i)=>`<option value="${i}">${e([w.year,w.month,w.week].filter(Boolean).join(' · '))}</option>`).join('');if(state.weekIndex>=state.weeks.length)state.weekIndex=0;els.weekSelect.value=String(state.weekIndex)}
+function renderWeek(){const w=state.weeks[state.weekIndex];if(!w){['completed','problems','nextPlan','monthlyPlan'].forEach(k=>els[k].innerHTML='<span class="empty">没有可展示的周报记录</span>');els.meta.innerHTML='';els.attendanceGrid.innerHTML='';els.attendanceSummary.textContent='';return}
+  els.meta.innerHTML=[w.year,w.month,w.week].filter(Boolean).map(x=>`<span class="tag">${e(x)}</span>`).join('');
+  els.completed.innerHTML=textOrEmpty(w.completed);els.problems.innerHTML=textOrEmpty(w.problems);els.nextPlan.innerHTML=textOrEmpty(w.nextPlan);els.monthlyPlan.innerHTML=textOrEmpty(w.monthlyPlan);
+  let filled=0, good=0;els.attendanceGrid.innerHTML=DAYS.map((d,di)=>{const am=w.attendance?.[di*2]||'';const pm=w.attendance?.[di*2+1]||'';[am,pm].forEach(v=>{if(String(v).trim()){filled++;if(statusClass(v)==='good')good++;}});return `<div class="day"><div class="day-name">${d}</div><div class="half"><span class="half-label">上午</span><span class="status ${statusClass(am)}">${e(am||'—')}</span></div><div class="half"><span class="half-label">下午</span><span class="status ${statusClass(pm)}">${e(pm||'—')}</span></div></div>`}).join('');
+  els.attendanceSummary.textContent=filled?`已记录 ${filled}/14 个时段${good?` · 正常/出勤 ${good}`:''}`:'本周暂无出勤记录';
+}
+function setPerson(personId='',keepWeek=false){
+  const people=state.data?.people||[];
+  const person=people.find(p=>p.id===personId)||people[0];
+  state.people=people.map(({id,name})=>({id,name}));
+  state.person=person?.id||'';
+  state.weeks=person?.weeks||[];
+  if(!keepWeek) state.weekIndex=Math.max(0,state.weeks.length-1);
+  if(state.weekIndex>=state.weeks.length) state.weekIndex=Math.max(0,state.weeks.length-1);
+  renderPeople();renderWeeks();renderWeek();
+}
+async function load(personId='',keepWeek=false){
+  clearError();setLoading(true);
+  try{
+    const r=await fetch('./data/data.json?ts='+Date.now(),{cache:'no-store'});
+    const data=await r.json().catch(()=>({}));
+    if(!r.ok||data.error) throw new Error(data.error||`HTTP ${r.status}`);
+    state.data=data;
+    setPerson(personId||state.person,keepWeek);
+    const t=data.syncedAt?new Date(data.syncedAt):null;
+    els.syncDot.className='dot';
+    els.syncText.textContent=t&&!Number.isNaN(t.getTime())
+      ? '腾讯文档最近同步 · '+t.toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'})
+      : '等待首次同步';
+  }catch(err){showError('暂时没有可显示的数据：'+(err.message||String(err))+'。如果刚部署，请先在 GitHub Actions 手动运行一次“同步腾讯文档”。')}
+  finally{setLoading(false)}
+}
+els.personSelect.addEventListener('change',()=>{state.person=els.personSelect.value;state.weekIndex=0;setPerson(state.person,false)});
+els.weekSelect.addEventListener('change',()=>{state.weekIndex=Number(els.weekSelect.value)||0;renderWeek()});
+els.refreshBtn.addEventListener('click',()=>load(state.person,true));
+load();state.timer=setInterval(()=>load(state.person,true),60000);
+</script>
+</body>
+</html>
