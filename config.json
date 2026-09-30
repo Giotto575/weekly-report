@@ -3,9 +3,6 @@
   "range": "A1:V450",
   "includeSheets": [],
   "excludeSheets": [
-    "会议纪要",
-    "丁维贤",
-    "陈建兴",
-    "陈建兴 "
+    "会议纪要"
   ]
 }
