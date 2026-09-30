@@ -34,20 +34,10 @@ jobs:
 
           LAST=0
           if [ -f data/sync-state.json ]; then
-            LAST=$(python3 - <<'PY'
-import json
-from datetime import datetime
-try:
-    with open("data/sync-state.json", "r", encoding="utf-8") as f:
-        s = json.load(f).get("lastAttemptAt", "")
-    if s:
-        print(int(datetime.fromisoformat(s.replace("Z","+00:00")).timestamp()))
-    else:
-        print(0)
-except Exception:
-    print(0)
-PY
-)
+            LAST_ISO=$(jq -r '.lastAttemptAt // empty' data/sync-state.json)
+            if [ -n "$LAST_ISO" ]; then
+              LAST=$(date -d "$LAST_ISO" +%s 2>/dev/null || echo 0)
+            fi
           fi
 
           AGE=$((NOW - LAST))
