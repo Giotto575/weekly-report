@@ -22,15 +22,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: 20-minute sync gate
+      - name: Sync gate (06:00-24:00 China, every 20 minutes)
         id: gate
         shell: bash
         run: |
           NOW=$(date -u +%s)
-          FORCE=false
-          if [ "${{ github.event_name }}" = "push" ]; then
-            FORCE=true
-          fi
+          CN_HOUR=$(TZ=Asia/Shanghai date +%H)
+
+          case "$CN_HOUR" in
+            00|01|02|03|04|05)
+              echo "run_sync=false" >> "$GITHUB_OUTPUT"
+              echo "Skip Tencent Docs: outside China-time sync window (06:00-24:00)."
+              exit 0
+              ;;
+          esac
 
           LAST=0
           if [ -f data/sync-state.json ]; then
@@ -41,7 +46,7 @@ jobs:
           fi
 
           AGE=$((NOW - LAST))
-          if [ "$FORCE" != "true" ] && [ "$LAST" -gt 0 ] && [ "$AGE" -lt 1200 ]; then
+          if [ "$LAST" -gt 0 ] && [ "$AGE" -lt 1200 ]; then
             echo "run_sync=false" >> "$GITHUB_OUTPUT"
             echo "Skip Tencent Docs: last attempt was ${AGE}s ago (<1200s)."
             exit 0
