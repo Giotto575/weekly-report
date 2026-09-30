@@ -22,17 +22,69 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: 20-minute sync gate
+        id: gate
+        shell: bash
+        run: |
+          NOW=$(date -u +%s)
+          FORCE=false
+          if [ "${{ github.event_name }}" = "push" ]; then
+            FORCE=true
+          fi
+
+          LAST=0
+          if [ -f data/sync-state.json ]; then
+            LAST=$(python3 - <<'PY'
+import json
+from datetime import datetime
+try:
+    with open("data/sync-state.json", "r", encoding="utf-8") as f:
+        s = json.load(f).get("lastAttemptAt", "")
+    if s:
+        print(int(datetime.fromisoformat(s.replace("Z","+00:00")).timestamp()))
+    else:
+        print(0)
+except Exception:
+    print(0)
+PY
+)
+          fi
+
+          AGE=$((NOW - LAST))
+          if [ "$FORCE" != "true" ] && [ "$LAST" -gt 0 ] && [ "$AGE" -lt 1200 ]; then
+            echo "run_sync=false" >> "$GITHUB_OUTPUT"
+            echo "Skip Tencent Docs: last attempt was ${AGE}s ago (<1200s)."
+            exit 0
+          fi
+
+          mkdir -p data
+          ISO=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          printf '{\n  "lastAttemptAt": "%s"\n}\n' "$ISO" > data/sync-state.json
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sync-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: record Tencent Docs sync attempt"
+            git push
+          fi
+
+          echo "run_sync=true" >> "$GITHUB_OUTPUT"
+
       - name: Setup Node.js
+        if: steps.gate.outputs.run_sync == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
       - name: Read Tencent Docs
+        if: steps.gate.outputs.run_sync == 'true'
         env:
           TENCENT_DOCS_TOKEN: ${{ secrets.TENCENT_DOCS_TOKEN }}
         run: node scripts/sync.mjs
 
       - name: Commit updated web data
+        if: steps.gate.outputs.run_sync == 'true' && success()
         run: |
           if git diff --quiet -- data/data.json; then
             echo "No data changes."
