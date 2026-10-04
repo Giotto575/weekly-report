@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-04T14:39:29.749Z",
+  "syncedAt": "2026-10-04T15:00:20.004Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -25641,9 +25641,9 @@
             ""
           ],
           "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1.和翰文沟通好了TS路的仿真，包括ADC BUF和REF BUF的联仿\n2.V路带tran noise的仿真，fmin=100Hz\n3.冻结版本SDM仿真（删去CLK BUF）",
+          "problems": "冻结版本SDM性能略有下降",
+          "nextPlan": "1.AD4858建模\n2.SAR理想电路搭建\n3.7001优化"
         },
         {
           "year": "2026",
