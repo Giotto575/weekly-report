@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-07T09:19:18.285Z",
+  "syncedAt": "2026-10-07T09:39:22.174Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -31023,10 +31023,10 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "monthlyPlan": "CH7001_LRC+CH7001_Buffer+BCI AFE",
+          "completed": "1. 进行7001 LRC电路版图Floor Plan的绘制(20%)；\n2. 根据顶层需求优化7001 VCM_BUF的性能(20%)",
+          "problems": "1. LRC的Floor Plan中存在较多guardring等细节问题，需要等伟宇老师提供一份参考后再进行修改；\n2. 7001 VCM_BUF在优化过程中存在PM与GBW之间的trade off，暂未找到合理的解决方案兼顾两个指标的最低要求",
+          "nextPlan": "1. 继续绘制LRC的Floor Plan；\n2. 继续优化VCM_BUF的性能；\n3. 阅读脑机接口模拟前端的板级系统相关文献；\n4. 学习开关电容放大器的相关电路知识"
         },
         {
           "year": "2026",
