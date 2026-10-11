@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-11T08:51:22.197Z",
+  "syncedAt": "2026-10-11T09:12:17.300Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -25682,9 +25682,9 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "CH7001项目版图后仿+HW项目",
-          "completed": "1.SDM电路最终版，LEVEL SHITER加入ISO，替换不稳定的高值电阻，统一替换为RPPLOY，已对接给版图\n2.SDM验证完成，包括adj_delay，功耗，tran noise，V路功能",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1.SDM电路最终版，LEVEL SHITER加入ISO，替换不稳定的高值电阻，统一替换为RPPLOY，已对接给版图\n2.SDM验证完成，包括adj_delay，功耗，tran noise，V路功能\n3.搭建两级PSAR电路，5b+12b，仿真VOS的影响",
+          "problems": "发现AZ专利中的方案与开关电容放大器不兼容，需要进一步讨论",
+          "nextPlan": "1.对AZ方案的实现做进一步讨论（尤其是RA方案）\n2.完善MATLAB建模，准备汇报"
         },
         {
           "year": "2027",
