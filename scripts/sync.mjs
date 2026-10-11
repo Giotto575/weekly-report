@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { normalizeReports } from './report-data.mjs';
 
 const ROOT = process.cwd();
 const config = JSON.parse(await fs.readFile(path.join(ROOT, 'config.json'), 'utf8'));
@@ -135,132 +136,6 @@ async function callTool(name, args) {
   return payload;
 }
 
-function scalar(v) {
-  if (v == null) return '';
-  if (['string', 'number', 'boolean'].includes(typeof v)) return String(v);
-  if (Array.isArray(v)) return v.map(scalar).filter(Boolean).join('\n');
-  if (typeof v === 'object') {
-    for (const k of ['formatted_value','formattedValue','display_value','displayValue','string_value','stringValue','number_value','numberValue','bool_value','boolValue','text','content','value','v']) {
-      if (v[k] != null) return scalar(v[k]);
-    }
-  }
-  return '';
-}
-
-function normalizeColor(raw) {
-  let s = String(raw || '').trim().replace(/^#/, '').toUpperCase();
-  if (!s) return '';
-  if (s.length === 8) {
-    const alpha = s.slice(0, 2);
-    if (alpha === '00') return '';
-    s = s.slice(2);
-  }
-  if (!/^[0-9A-F]{6}$/.test(s)) return '';
-  if (s === 'FFFFFF') return '';
-  return '#' + s;
-}
-
-function normalizeWeeks(values, styleMap = new Map()) {
-  if (!Array.isArray(values)) return [];
-  let lastYear = '', lastMonth = '';
-  const weeks = [];
-  for (let rowIndex = 0; rowIndex < values.length; rowIndex++) {
-    const input = values[rowIndex];
-    if (!Array.isArray(input)) continue;
-    const row = input.map(scalar);
-    while (row.length < 22) row.push('');
-    const year = row[0].trim() || lastYear;
-    const month = row[2].trim() || lastMonth;
-    const week = row[3].trim();
-    if (year) lastYear = year;
-    if (month) lastMonth = month;
-    if (!week || /具体周|周次|week/i.test(week)) continue;
-
-    const attendance = row.slice(4, 18).map(v => v.trim());
-    const attendanceColors = Array.from({ length: 14 }, (_, i) =>
-      normalizeColor(styleMap.get(`${rowIndex}:${i + 4}`)?.background_color)
-    );
-    const monthlyPlan = row[18].trim();
-    const completed = row[19].trim();
-    const problems = row[20].trim();
-    const nextPlan = row[21].trim();
-    if (!/[0-9]/.test(week) && !attendance.some(Boolean) && !attendanceColors.some(Boolean) && !monthlyPlan && !completed && !problems && !nextPlan) continue;
-    weeks.push({ year, month, week, attendance, attendanceColors, monthlyPlan, completed, problems, nextPlan });
-  }
-  return weeks;
-}
-
-
-function parseWeekStart(week) {
-  const m = String(week || '').trim().match(/^(\d{1,2})\.(\d{1,2})-(\d{1,2})\.(\d{1,2})$/);
-  if (!m) return null;
-  return { sm: Number(m[1]), sd: Number(m[2]), em: Number(m[3]), ed: Number(m[4]) };
-}
-
-function chinaTodayParts() {
-  const parts = Object.fromEntries(
-    new Intl.DateTimeFormat('en-US', {
-      timeZone: 'Asia/Shanghai',
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit'
-    }).formatToParts(new Date())
-      .filter(p => p.type !== 'literal')
-      .map(p => [p.type, p.value])
-  );
-  return { year: Number(parts.year), month: Number(parts.month), day: Number(parts.day) };
-}
-
-function fillYears(weeks) {
-  if (!weeks.length) return weeks;
-  const today = chinaTodayParts();
-  const nowTs = Date.UTC(today.year, today.month - 1, today.day);
-
-  let anchor = -1;
-  let anchorYear = today.year;
-  let bestDiff = Infinity;
-
-  for (let i = 0; i < weeks.length; i++) {
-    const p = parseWeekStart(weeks[i].week);
-    if (!p) continue;
-    for (const y of [today.year - 1, today.year, today.year + 1]) {
-      const ey = p.em < p.sm ? y + 1 : y;
-      const start = Date.UTC(y, p.sm - 1, p.sd);
-      const end = Date.UTC(ey, p.em - 1, p.ed);
-      const mid = (start + end) / 2;
-      const diff = Math.abs(mid - nowTs);
-      if (diff < bestDiff) {
-        bestDiff = diff;
-        anchor = i;
-        anchorYear = y;
-      }
-    }
-  }
-
-  if (anchor < 0) return weeks;
-
-  const years = Array(weeks.length).fill('');
-  years[anchor] = String(anchorYear);
-
-  for (let i = anchor - 1; i >= 0; i--) {
-    const cur = parseWeekStart(weeks[i].week);
-    const next = parseWeekStart(weeks[i + 1].week);
-    let y = Number(years[i + 1]);
-    if (cur && next && cur.sm > next.sm) y -= 1;
-    years[i] = String(y);
-  }
-
-  for (let i = anchor + 1; i < weeks.length; i++) {
-    const prev = parseWeekStart(weeks[i - 1].week);
-    const cur = parseWeekStart(weeks[i].week);
-    let y = Number(years[i - 1]);
-    if (prev && cur && cur.sm < prev.sm) y += 1;
-    years[i] = String(y);
-  }
-
-  return weeks.map((w, i) => ({ ...w, year: w.year || years[i] }));
-}
-
 function getStyleMap(payload) {
   const cells = payload?.cells || payload?.data?.cells || payload?.styles || payload?.data?.styles || [];
   const map = new Map();
@@ -393,7 +268,7 @@ for (const sheet of sheets) {
       console.warn(`读取 ${sheet.name} 考勤颜色失败：${err.message || err}`);
     }
   }
-  const weeks = fillYears(normalizeWeeks(getValues(payload), styleMap));
+  const weeks = normalizeReports(getValues(payload), styleMap, config.firstWeekYear);
   people.push({ id: sheet.id, name: sheet.name, weeks });
 }
 
