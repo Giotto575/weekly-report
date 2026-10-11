@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-11T09:12:17.300Z",
+  "syncedAt": "2026-10-11T09:32:22.396Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -12286,9 +12286,9 @@
             ""
           ],
           "monthlyPlan": "",
-          "completed": "",
+          "completed": "1.1号板 LDO供电 噪底测试到70dB",
           "problems": "",
-          "nextPlan": ""
+          "nextPlan": "1.准备大信号测试"
         },
         {
           "year": "2027",
@@ -12327,9 +12327,9 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "",
-          "completed": "",
+          "completed": "1.1号板大信号的眼图问题恶劣-->已解决\n2.1号板大信号能测到66dB",
           "problems": "",
-          "nextPlan": ""
+          "nextPlan": "1.最后花两天测试一下大信号和其他输入频率\n2.综合1号板 2号板汇总测试信息"
         },
         {
           "year": "2027",
@@ -14918,7 +14918,7 @@
           "monthlyPlan": "",
           "completed": "1.学习JSSC21论文，内容关于IIR实现模拟域的伪影抑制\n2.细化DAC指标",
           "problems": "",
-          "nextPlan": "1.确定创新点和具体的伪影抑制方案\n2.形成一个整体的系统级架构，包括：采集端、刺激端、外围电路。\n3.芯片选型实现板级架构"
+          "nextPlan": "1.继续学习伪影抑制方法"
         },
         {
           "year": "2027",
@@ -15000,7 +15000,7 @@
           "monthlyPlan": "1.完成双向脑机接口整体架构设计\n2.完成板级芯片选型\n3.确定创新点",
           "completed": "1.学习SHDR原理，宁远说SHDR只能做scale down，因此需要换一种架构实现满量程测量",
           "problems": "1.目前整体架构思路上有些混乱，需要再好好梳理一下",
-          "nextPlan": ""
+          "nextPlan": "1.本周对比集中伪影抑制方案，先确定好一个初步的整体架构"
         },
         {
           "year": "2027",
