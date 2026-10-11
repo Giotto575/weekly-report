@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'scripts/sync.mjs'
+      - 'scripts/**'
       - 'config.json'
       - '.github/workflows/sync.yml'
 
