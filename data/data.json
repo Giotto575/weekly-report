@@ -1,14 +1,14 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-07T15:59:35.858Z",
+  "syncedAt": "2026-10-11T08:30:21.498Z",
   "people": [
     {
       "id": "pb3bzy",
       "name": "丁英龙",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -49,7 +49,7 @@
           "nextPlan": "配合完成618顶层后仿真"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -90,7 +90,7 @@
           "nextPlan": "协助618顺利流片"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -131,7 +131,7 @@
           "nextPlan": "合封芯片摸底测试完成"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -172,7 +172,7 @@
           "nextPlan": "完成ZF现场测试准备，芯片摸底测试"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -213,7 +213,7 @@
           "nextPlan": "完成国合ppt，搭建顶层仿真tb，完成所有测试工作，帮天津那边还有206那边调测试板，流程跑通"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -254,7 +254,7 @@
           "nextPlan": "与近红外重新测一下十颗结题芯片，等zg仿真结果出来是否正确，整理仿真结果"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -295,7 +295,7 @@
           "nextPlan": "等仿真结果出来整理结果，准备一下618项目材料"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -336,7 +336,7 @@
           "nextPlan": "准备618后高压电路设计，提前搜集相关论文信息，补充材料等"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -377,7 +377,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -418,7 +418,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -459,7 +459,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -500,7 +500,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -541,7 +541,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -582,7 +582,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -623,7 +623,7 @@
           "nextPlan": "准备dac项目内容"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -664,7 +664,7 @@
           "nextPlan": "搭建初版高压放大器"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -705,7 +705,7 @@
           "nextPlan": "继续设计高压放大器"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -746,7 +746,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -787,7 +787,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -828,7 +828,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -869,7 +869,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -910,7 +910,7 @@
           "nextPlan": "确定器件选择，完成outbuff部分功能仿真及部分性能仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -951,7 +951,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -992,7 +992,7 @@
           "nextPlan": "继续优化输出buff"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -1033,7 +1033,7 @@
           "nextPlan": "完成结题文档，补充输出buff高压限流保护及二极管保护等"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -1074,7 +1074,7 @@
           "nextPlan": "输出buff部分的高压放大器fix，配合618测试IF电路"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -1115,7 +1115,7 @@
           "nextPlan": "收尾输出buff，开始设计REF buff"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -1156,7 +1156,7 @@
           "nextPlan": "设计REFINBUFF和REFOUTBUFF，配合618测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -1197,7 +1197,7 @@
           "nextPlan": "完善三个buff设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -1238,7 +1238,7 @@
           "nextPlan": "开始准备buff版图工作"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -1279,7 +1279,7 @@
           "nextPlan": "review高压buff后修改完成，开始IF芯片测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -1320,7 +1320,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -1361,7 +1361,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -1402,7 +1402,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -1443,7 +1443,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -1484,7 +1484,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -1525,7 +1525,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -1566,7 +1566,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -1607,7 +1607,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -1648,7 +1648,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -1689,7 +1689,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -1730,7 +1730,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -1771,7 +1771,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -1812,7 +1812,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -1853,7 +1853,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -1894,7 +1894,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -1935,7 +1935,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -1976,7 +1976,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -2017,7 +2017,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -2058,7 +2058,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -2099,7 +2099,7 @@
           "nextPlan": "1、跟进IF项目，配合618完成所有case仿真并整理\n2、准备脑计划项目技术方案"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -2140,7 +2140,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -2181,7 +2181,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -2222,7 +2222,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -2263,7 +2263,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -2304,7 +2304,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -2345,7 +2345,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -2386,7 +2386,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -2427,7 +2427,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -2468,7 +2468,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -2509,7 +2509,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -2550,7 +2550,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -2591,7 +2591,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -2632,7 +2632,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -4817,7 +4817,7 @@
       "name": "陈建兴 ",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -4858,7 +4858,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -4899,7 +4899,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -4940,7 +4940,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -4981,7 +4981,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -5022,7 +5022,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -5063,7 +5063,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -5104,7 +5104,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -5145,7 +5145,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -5186,7 +5186,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -5227,7 +5227,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -5268,7 +5268,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -5309,7 +5309,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -5350,7 +5350,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -5391,7 +5391,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -5432,7 +5432,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -5473,7 +5473,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -5514,7 +5514,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -5555,7 +5555,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -5596,7 +5596,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -5637,7 +5637,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -5678,7 +5678,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -5719,7 +5719,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -5760,7 +5760,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -5801,7 +5801,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -5842,7 +5842,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -5883,7 +5883,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -5924,7 +5924,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -5965,7 +5965,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -6006,7 +6006,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -6047,7 +6047,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -6088,7 +6088,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -6129,7 +6129,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -6170,7 +6170,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -6211,7 +6211,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -6252,7 +6252,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -6293,7 +6293,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -6334,7 +6334,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -6375,7 +6375,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -6416,7 +6416,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -6457,7 +6457,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -6498,7 +6498,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -6539,7 +6539,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -6580,7 +6580,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -6621,7 +6621,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -6662,7 +6662,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -6703,7 +6703,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -6744,7 +6744,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -6785,7 +6785,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -6826,7 +6826,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -6867,7 +6867,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -6908,7 +6908,7 @@
           "nextPlan": "1.学习《数据转换器》第三章内容(50%)\n2.阅读《基于时域电荷平衡的  神经电刺激芯片设计》硕士论文\n3.阅读脑机接口板级系统的论文"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -6949,7 +6949,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -6990,7 +6990,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -7031,7 +7031,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -7072,7 +7072,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -7113,7 +7113,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -7154,7 +7154,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -7195,7 +7195,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -7236,7 +7236,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -7277,7 +7277,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -7318,7 +7318,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -7359,7 +7359,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -7400,7 +7400,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -7441,7 +7441,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -7488,7 +7488,7 @@
       "name": "潘羽涵",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -7529,7 +7529,7 @@
           "nextPlan": "1.debug没有大信号输入下的噪底情况，排除测试方法和数据处理问题\n2.继续寻找可能导致噪底抬升的原因"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -7570,7 +7570,7 @@
           "nextPlan": "1.充分仿真，确定PCB改版方案，完成PCB改版\n2.摸底手头每一块芯片的噪底，并基于此继续测试"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -7611,7 +7611,7 @@
           "nextPlan": "1.继续根据测试现象仿真debug\n2.尽快完成子板PCB的改版"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -7652,7 +7652,7 @@
           "nextPlan": "PCB制板，继续仿真做后续测试准备"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -7693,7 +7693,7 @@
           "nextPlan": "1.细测四号版\n2.尝试解释之前小信号给入噪底抬升原因"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -7734,7 +7734,7 @@
           "nextPlan": "1.根据王博的建议进行测试尝试\n2.收到新板子后测试新板子，看看和旧板子有无区别"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -7775,7 +7775,7 @@
           "nextPlan": "1.仿真模拟SAR边沿翻转，找到原因\n2.仿真SAR边沿翻转对系统精度的影响\n3.细读一下浙大和Chae组的Zoom IADC的论文"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -7816,7 +7816,7 @@
           "nextPlan": "1.继续仿真，尝试复现测试现象\n2.阅读测试dc输入的论文，设计dc测试方案"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -7857,7 +7857,7 @@
           "nextPlan": "1.回复测试台2.验证LPF作用 3.收集DC的统计结果"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -7898,7 +7898,7 @@
           "nextPlan": "1.继续探究大信号噪底抬升的原因 2.测试DNL INL 3.跟老师探讨测dc写文章的可行性"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -7939,7 +7939,7 @@
           "nextPlan": "1.继续仿真，探究大信号噪底抬升原因"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -7980,7 +7980,7 @@
           "nextPlan": "1.将大信号测试问题闭环，并思考补救方法\n2.阅读所有测试DC的论文，并准备测试代码"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -8021,7 +8021,7 @@
           "nextPlan": "测试，尝试闭环大信号问题，尝试测到85dB+"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -8062,7 +8062,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -8103,7 +8103,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -8144,7 +8144,7 @@
           "nextPlan": "继续优化大信号测试，尝试片外校准，再细测几块"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -8185,7 +8185,7 @@
           "nextPlan": "继续完成zoom IADC校准并应用于测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -8226,7 +8226,7 @@
           "nextPlan": "继续收集测试结果"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -8267,7 +8267,7 @@
           "nextPlan": "年后尽快收集完测试结果"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -8308,7 +8308,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -8349,7 +8349,7 @@
           "nextPlan": "尽可能优化输入信号质量并收集结果"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -8390,7 +8390,7 @@
           "nextPlan": "下周内完成所有测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -8431,7 +8431,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -8472,7 +8472,7 @@
           "nextPlan": "继续修改论文"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -8513,7 +8513,7 @@
           "nextPlan": "完成论文定稿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -8554,7 +8554,7 @@
           "nextPlan": "继续修改论文，阅读文献，探索新idea"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -8595,7 +8595,7 @@
           "nextPlan": "修改完全文，再请老师看一下"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -8636,7 +8636,7 @@
           "nextPlan": "完成注册和论文投稿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -8677,7 +8677,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -8718,7 +8718,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -8759,7 +8759,7 @@
           "nextPlan": "阅读文献，结合组内现有65nm工作思考下一个工作方向"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -8800,7 +8800,7 @@
           "nextPlan": "继续探索后续方向"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -8841,7 +8841,7 @@
           "nextPlan": "继续探索后续方向"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -8882,7 +8882,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -8923,7 +8923,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -8964,7 +8964,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -9005,7 +9005,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -9046,7 +9046,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -9087,7 +9087,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -9128,7 +9128,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -9169,7 +9169,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -9210,7 +9210,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -9251,7 +9251,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -9292,7 +9292,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -9333,7 +9333,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -9374,7 +9374,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -9415,7 +9415,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -9456,7 +9456,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -9497,7 +9497,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -9538,7 +9538,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -9579,7 +9579,7 @@
           "nextPlan": "1.12.5uA IDAC 校准调试\n2.整体环路仿真\n3.继续IDAC RST时序和开关设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -9620,7 +9620,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -9661,7 +9661,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -9702,7 +9702,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -9743,7 +9743,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -9784,7 +9784,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -9825,7 +9825,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -9866,7 +9866,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -9907,7 +9907,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -9948,7 +9948,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -9989,7 +9989,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -10030,7 +10030,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -10071,7 +10071,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -10112,7 +10112,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -10159,7 +10159,7 @@
       "name": "金逸辰",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -10200,7 +10200,7 @@
           "nextPlan": "1.周一PCB检查后送出审核\n2.购买元器件\n3.博士开题报告找时间写完\n4.再尝试测一测上次的片子，因为还留了5块没动"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -10241,7 +10241,7 @@
           "nextPlan": "1.新板子验DC--》bonding--》重新测\n2.COB文件再检查之后发给北芯\n3.开题报告老师确认无误之后开始走系统流程\n4.等待的时候 把剩下的5块板子测一测\n5.去MATLAB看下CDAC分量变小会是怎么样\n6.还可以去做一下文献溯源，检查这个robust MASH的REF，顺便思考一下两个期刊怎么写"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -10282,7 +10282,7 @@
           "nextPlan": "测试"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -10323,7 +10323,7 @@
           "nextPlan": "1.Bonding wire验证，需要找出加完currentmirror出错的原因-->先给current mirror加不同的源\n2.1号板测3.2GHz的情况\n3.同步开始准备JSSC里综述的写作"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -10364,7 +10364,7 @@
           "nextPlan": "1.1号板3.2GHz的case收尾\n2.快速摸完剩下的几块板子结果\n3.穿插准备JSSC里综述写作的材料\n4.尝试只用GND注入的电流源\n5.探查一下PSRR差的原因：bias电路与gmf的设置"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -10405,7 +10405,7 @@
           "nextPlan": "1.RMASH测试：先对接，熟悉流程，本周尝试测peak SNDR\n2.和muse询问能不能改线的问题\n3.同步进行200M片子的仿真\n4.找王博对片子测试结果推断的流程"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -10446,7 +10446,7 @@
           "nextPlan": "1.DR测试还需要补大于-0.5dB的case，和小于100mV输入的case\n2.还需要测高频输入的peak SNDR，高频输入下的DR，two-tone，STF\n3.还需要细分各部分的power\n4.200MHz片子的仿真，仍要思考还能从什么角度验证思路\n5.本周再找王博和muse确认 bond猜测 和 改线问题\n6.还要记下未开DAC cal的case，1.8M 13.5M 18M\n7.比较一下N5182A E4433B作为时钟源的性能-->没有太大的区别"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -10487,7 +10487,7 @@
           "nextPlan": "1.20M 的各项数据整理，形成一个PPT\n2.200M芯片再测两天 重新上电试一试\n3.本周再找王博和muse确认 bond猜测 和 改线问题\n4.收拾最后一点200M PSRR的仿真结果\n5.和老师协商获得20M 的MATLAB模型\n6.先筛选出JSSC长文需要的论文资源\n7.查明高频下DAC cal 效果下降的原因，比较MIT Yoon\n8.把2025 200M所有数据拷了 留存\n9.尝试用示波器看下200M板子的电压，尝试单独供AVDD1P8\n10.整理好200M的结果与仿真，并附上muse流片时间表"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -10528,7 +10528,7 @@
           "nextPlan": "1.200M测试报告确认好之后，提交祁老师和王博\n2.遍历2010-2025的JSSC，筛选包含CTDSM和MASH的论文\n3.遍历ieee直接能搜出MASH的论文\n4.总结出几种提取或cancel QN的方案"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -10569,7 +10569,7 @@
           "nextPlan": "1.补充 PSRR w/ bond AC MC的仿真\n2.测试带上电流镜后，电流注入环的STB\n3.系统看OP第一级的STB PM\n4.仿真 FIB方案之后 在外界加电容的效果\n5.补充上电时序的仿真：模拟电源快慢上电，后开CLK\n6.遍历IEEE上two-step ADC的内容\n7.总结提取或cancel QN的几个大方案\n8.等yuekai撤台后花1~2小时换电源线试试\n9.仿真前仿 SS/FF/SF/FS corner下的bond情况\n10.还需要改小电流板的PCB，重新画一个，那个比较快\n11.清点物料，看看还剩下多少PCB的料\n12.找北芯要芯片，找FIB问报价，提取局部的GDS\n13.仿真TT/SS corner MC trans bond\n14.形成完整FIB报告，给厂商估价；并发出PCB和裸片"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -10610,7 +10610,7 @@
           "nextPlan": "1.看下MC bond trans的情况(ss/TT corner)\n2.遍历IEEE上two-step ADC的内容\n3.等yuekai撤台后花1~2小时换电源线试试旧板子\n4.认真读整理好的JSSC，开始总结提取或cancel QN的几个大方案"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -10651,7 +10651,7 @@
           "nextPlan": "1.Loop1还有几个code试试有没有变化\n2.尝试开弄小信号的MASH"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -10692,7 +10692,7 @@
           "nextPlan": "继续测试继续完善"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -10733,7 +10733,7 @@
           "nextPlan": "还没测的东西：\n不同频率下Loop1的大信号\n更加好的DAC校准\nMASH大信号"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -10774,7 +10774,7 @@
           "nextPlan": "还没测的东西：\n不同频率下Loop1的大信号\n更加好的DAC校准\nMASH大信号"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -10815,7 +10815,7 @@
           "nextPlan": "1.MASH-10MHz 扫下码\n2.MASH大信号测下别的输入频率\n3.把这个10dB-噪底差距的问题给坐实，想想可以从什么方向验证"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -10856,7 +10856,7 @@
           "nextPlan": "1.开始修改OP的PSRR 以及 换OP mac18尾管\n2.ISI的普遍处理方法 查看文献"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -10897,7 +10897,7 @@
           "nextPlan": "1.年前先写基金本子"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -10938,7 +10938,7 @@
           "nextPlan": "写基金文字+画图"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -10979,7 +10979,7 @@
           "nextPlan": "过年"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -11020,7 +11020,7 @@
           "nextPlan": "1.写基金文字+画图\n2.coreL3 MC锁定在IDAC，IDAC内锁定在主DAC路径，DFF/CLKtree的影响小"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -11061,7 +11061,7 @@
           "nextPlan": "1.尽快形成AVDD1P2的current mirror\n2.尽快扫OP1234 MC+corner下 符合条件的sensor Cap以及电流注入Cap (要用后仿数据来跑)\n3.shematic敲定后 快速改版图 以上内容争取都下周完成 后续快速进入顶层版图\n4.跑trans环路的setup，看下reset开关真实效果并且快速敲定\n5.快速摸底改AABB/BBAA模式的话 版图需要动多少"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -11102,7 +11102,7 @@
           "nextPlan": "1.reset开关需要跑setup\n2.比较加上cap前后coreL3性能变化，以及修改code方案\n3.进入版图流程，确定setup和PSRR cap都没问题后，把需要的东西加回版图中\n4.同时快速摸底顶管 PMOS 改AABB/BBAA模式的话 版图需要动多少\n5.加的sensor cap和inject cap也要根据版图来，提前需要看过\n6.查下走线电阻对PSRR优化的影响"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -11143,7 +11143,7 @@
           "nextPlan": "1.和老师确定AV18分割方案\n2.仔细重新对一遍所有用AV18的地方\n3.弄好分割AV18的pad\n4.和老师确定AV18新的供电方案\n5.弄好新的coreL3 shematic\n6.弄好新供电方案下的coreL3，尽快后仿\n7.弄新的current mirror(inject cap放在这一层)\n8.弄新的decap"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -11184,7 +11184,7 @@
           "nextPlan": "1.眼图问题 通过coreL2仿真最终敲定方案\n2.先过完一版coreL2的LVS\n3.前仿部分除了coreL1/L0之外别的仿真全部清完\n4.后仿部分先跑无powernet的corner，然后等coreL1的powernet确定后，再反带跑抽powernet的\n5.下周弄完coreL1的版图(只剩pad)"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -11225,7 +11225,7 @@
           "nextPlan": "版图：\n1.CoreL1和pad合起来变成coreL0；\n2.coreL0层面调整metal density；\n3.coreL0和sealring合起来；\n4.Searling层面调整OD/PO density；\n(这里可以停下 如果要改内部东西)\n5.画autofilling线；\n6.Searling层面跑autofilling；\n7.进一步调整density；\n\n仿真：\n1.前仿 新decap下bonding wire+pad\n2.前仿 coreL0&trans noise&AC filter\n3.前仿coreL2层面 验所有功能性测试\n4.后仿 coreL3 所有powernet trans noise\n5.后仿 coreL3 所有powernet 新decap下bond&trans noise"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -11266,7 +11266,7 @@
           "nextPlan": "1.系统的setup仿真和一系列版图检查事项\n2.具体细节查4.6-4.12简单汇总PPT"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -11307,7 +11307,7 @@
           "nextPlan": "1.版图层面的检查\n2.很多未扔的仿真和没跑完的仿真\n3.写checklist\n4.具体细节查4.13-4.19简单汇总PPT"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -11348,7 +11348,7 @@
           "nextPlan": "1.检查版图和checklist\n2.准备4.29交gds"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -11389,7 +11389,7 @@
           "nextPlan": "final gds提交"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -11430,7 +11430,7 @@
           "nextPlan": "final gds提交"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -11471,7 +11471,7 @@
           "nextPlan": "初筛完成 后续精细阅读 弄好各分类的PPT"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -11512,7 +11512,7 @@
           "nextPlan": "完成section2的文字初稿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -11553,7 +11553,7 @@
           "nextPlan": "1.section2的文字修改到fix版本\n2.和老师沟通整体思路 大致框架\n3.和xinyu沟通对接文件 对接的慢我就先去写measurement\n4.研究别的论文第三章写啥的\n5.分析一下各个结构对inter-stage mismatch suppression"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -11594,7 +11594,7 @@
           "nextPlan": "section1的书写与润色"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -11635,7 +11635,7 @@
           "nextPlan": "1.根据和老师沟通内容修改section1和2；添加逻辑与连接词\n2.修改section4的文字\n3.和老师讨论section3仿真条例 完成section3相关结论的仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -11676,7 +11676,7 @@
           "nextPlan": "1.robust的四结构建模\n2.AAF认真推导一遍\n3.写section3文字"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -11717,7 +11717,7 @@
           "nextPlan": "1.完善section3的文字，除了AAF和STF的部分\n2.section3的作图 得花个一天做一下\n3.section3除了STF外，别的要fix交给老师\n4.弄完section3就开始PCB的任务"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -11758,7 +11758,7 @@
           "nextPlan": "1.审稿TCAS1并提交\n2.ADC课的作业给老师改了\n3.PCB把原理图完成-->弄好core-->PCB尽量画完-->和COB的对信息\n4.论文把section4改了，主要是文字要修一下，以及图看看咋改\n5.论文把section5改了，主要是文字得重写，然后图全得更新\n6.跟进仪器修理的问题"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -11799,7 +11799,7 @@
           "nextPlan": "1.PCB画好主板\n2.PCB画完子板\n3.section4再看遍文字，同时看下图要不要小修\n4.section5的文字修改好，并且做好星星图\n5.论文加上reference\n6.跟进仪器修理"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -11840,7 +11840,7 @@
           "nextPlan": "1.完成论文section4\n2.完成论文section5\n3.完成论文reference\n4.完成SPI码和测试准备\n5.完成新的缩减OSR的校准代码\n6.寻找新的PCB焊接商"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -11881,7 +11881,7 @@
           "nextPlan": "1.完成论文section4，修文字\n2.完成论文section5，改文字\n3.完成论文reference\n4.完成SPI码\n5.完成新的缩减OSR的校准代码，先重新看一遍xing的论文"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -11922,7 +11922,7 @@
           "nextPlan": "1.完成reference-一天\n2.论文总修-两天\na.过每句语法\nb.reference\nc.总体看\n补齐conclusion\n（以上争取在周三前弄完）\n3.完成SPI码准备\n4.新的校准代码先看看原理\n5.周一得知回片消息之后 把焊接元件等寄出\n6.准备20M的补测事项"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -11963,7 +11963,7 @@
           "nextPlan": "1.新的校准代码 半天看原理 一天尝试\n2.20M补测先熟悉片子 列好计划 \n如果200M还没回片就搭20M的测试台\n3.200M芯片周五到达上海 周日还没有划片消息\n4.如果老师有反馈就改论文"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -12004,7 +12004,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -12045,7 +12045,7 @@
           "nextPlan": "测试：噪底"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -12086,7 +12086,7 @@
           "nextPlan": "测试：大信号"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -12127,7 +12127,7 @@
           "nextPlan": "1.大信号继续调试，还有电压电流等参数没有修改\n还可以在电源上接超大电容(用线焊接方案还是不太稳，有时候会导致地电位乱动)\n2.寻找更合适的电源供电方案\n3.仿真寻找是否能通过修改L或C的方式减小抖动的影响"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -12168,7 +12168,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -12209,7 +12209,7 @@
           "nextPlan": "1.论文matlab出数据\n2.寄出PCB 替换磁珠和AVDD1P8的2.2ohm\n3.沟通emx抽取的问题"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -12250,7 +12250,7 @@
           "nextPlan": "1.配合弄20M数据\n2.测回LDO的板子，此板子修改过damping res\n3.整理好数据 找老师和外部势力讨论"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -12291,7 +12291,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -12332,7 +12332,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -12373,7 +12373,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -12414,7 +12414,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -12455,7 +12455,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -12496,7 +12496,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -12537,7 +12537,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -12578,7 +12578,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -12619,7 +12619,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -12660,7 +12660,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -12701,7 +12701,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -12742,7 +12742,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -12783,7 +12783,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -12830,7 +12830,7 @@
       "name": "罗荣亮",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -12871,7 +12871,7 @@
           "nextPlan": "1.调试abview程序\n2.讨论雷达调研PPT，确定后续调研方向\n3.如果服务器账号申请完成，则开始进行ADC设计作业"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -12912,7 +12912,7 @@
           "nextPlan": "1.调研智能传感器"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -12953,7 +12953,7 @@
           "nextPlan": "1.进行智能传感器调研，并同时调研其他可能的方向"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -12994,7 +12994,7 @@
           "nextPlan": "1.连接光电接口相关内容\n2.将ISSCC2025相关内容进行汇总整理"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -13035,7 +13035,7 @@
           "nextPlan": "1.协助制作PPT\n2.继续进行ADC设计"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -13076,7 +13076,7 @@
           "nextPlan": "1.完成ADC全套教学流程的步骤，开始进行科研设计作业"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -13117,7 +13117,7 @@
           "nextPlan": "1.上周进度偏慢，本周预计完成ADC全套教学流程的步骤，开始进行科研设计作业，加快进度"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -13158,7 +13158,7 @@
           "nextPlan": "1.提高ADC采样率\n2.调研课题方向"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -13199,7 +13199,7 @@
           "nextPlan": "1.拟通过两路时钟交织方式达到500M采样率"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -13240,7 +13240,7 @@
           "nextPlan": "1.根据作业要求完成剩余性能指标的测试并完成实验报告\n2.学习运算放大器相关知识"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -13281,7 +13281,7 @@
           "nextPlan": "1.根据作业要求完成剩余性能指标的测试并完成实验报告\n2.继续学习运放"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -13322,7 +13322,7 @@
           "nextPlan": "1.学习二级运放"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -13363,7 +13363,7 @@
           "nextPlan": "1.搭建外围电路"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -13404,7 +13404,7 @@
           "nextPlan": "本周内完成所有的原理图以及功能测试，并进行性能测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -13445,7 +13445,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -13486,7 +13486,7 @@
           "nextPlan": "1.协助思逸完成flash"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -13527,7 +13527,7 @@
           "nextPlan": "继续进行版图绘制"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -13568,7 +13568,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -13609,7 +13609,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -13650,7 +13650,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -13691,7 +13691,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -13732,7 +13732,7 @@
           "nextPlan": "本周内预计完成FLASH整体版图绘制"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -13773,7 +13773,7 @@
           "nextPlan": "本周内预计完成除校准模块以外的整体版图"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -13814,7 +13814,7 @@
           "nextPlan": "完成比较器dummy模块以及顶层连接"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -13855,7 +13855,7 @@
           "nextPlan": "完成FLASH模块，绘制CLK_GEN模块"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -13896,7 +13896,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -13937,7 +13937,7 @@
           "nextPlan": "1.output buffer 验证PPT修改\n2.开始进行decap版图"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -13978,7 +13978,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -14019,7 +14019,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -14060,7 +14060,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -14101,7 +14101,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -14142,7 +14142,7 @@
           "nextPlan": "1.汇总形成PPT，找到了几篇详细对比的文章，再好好读一下"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -14183,7 +14183,7 @@
           "nextPlan": "1.继续细化PPT\n2.TCASI审稿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -14224,7 +14224,7 @@
           "nextPlan": "1.按照coherent-lite方向继续深入调研"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -14265,7 +14265,7 @@
           "nextPlan": "继续学习BROADCOM、Marvell参考论文，回答coherent的应用方向及切入点问题"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -14306,7 +14306,7 @@
           "nextPlan": "1.整理coherent-lite相关调研结果"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -14347,7 +14347,7 @@
           "nextPlan": "pipeline SAR大作业"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -14388,7 +14388,7 @@
           "nextPlan": "继续课题调研"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -14429,7 +14429,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -14470,7 +14470,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -14511,7 +14511,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -14552,7 +14552,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -14593,7 +14593,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -14634,7 +14634,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -14675,7 +14675,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -14716,7 +14716,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -14757,7 +14757,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -14798,7 +14798,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -14839,7 +14839,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -14880,7 +14880,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -14921,7 +14921,7 @@
           "nextPlan": "1.确定创新点和具体的伪影抑制方案\n2.形成一个整体的系统级架构，包括：采集端、刺激端、外围电路。\n3.芯片选型实现板级架构"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -14962,7 +14962,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -15003,7 +15003,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -15044,7 +15044,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -15085,7 +15085,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -15126,7 +15126,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -15167,7 +15167,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -15208,7 +15208,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -15249,7 +15249,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -15290,7 +15290,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -15331,7 +15331,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -15372,7 +15372,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -15413,7 +15413,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -15454,7 +15454,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -15501,7 +15501,7 @@
       "name": "吴宁远",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -15542,7 +15542,7 @@
           "nextPlan": "1. 完成方案三（DE模型）搭建；\n2. 验证所有非理想因素Case；\n3. 根据方案三修改现有电路。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -15583,7 +15583,7 @@
           "nextPlan": "1. 完成方案三的电路实现方案；\n2. 将除比较器外的其他电路都搭建完毕。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -15624,7 +15624,7 @@
           "nextPlan": "1. 平衡不同开关的逻辑延时；\n2. 完成Cosim和初步的PVT仿真。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -15665,7 +15665,7 @@
           "nextPlan": "1. 解决时序Overlap的问题\n2. 代入实际开关 & 电容做联合仿真"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -15706,7 +15706,7 @@
           "nextPlan": "1. 将瞬时电流降为20 mA级别，Relax对REF BUFFER的要求\n2. 将所有电路全部换为实际晶体管级别电路进行Cosim"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -15747,7 +15747,7 @@
           "nextPlan": "1. 将FF 125和TT 125的有效位数提升至11bit+\n2. 将VREF和前级放大器联合仿真"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -15788,7 +15788,7 @@
           "nextPlan": "1. 将校准逻辑用电路实现\n2. 待VREF完全优化完成之后跑系统仿真PVT"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -15829,7 +15829,7 @@
           "nextPlan": "1. 新版costdown电路实现"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -15870,7 +15870,7 @@
           "nextPlan": "1. 继续调研高压结构运放\n2. 调研在高边电流采样场景下，板级电路的构成是什么，后续电路可以将对应板级电路集成化。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -15911,7 +15911,7 @@
           "nextPlan": "1.将校准方案对应的模拟电路改完，数字交由数字工程师实现；\n2. 用BCDA工艺实现几种高压运放结构，确定对应SPEC的如何仿真。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -15952,7 +15952,7 @@
           "nextPlan": "1. 模拟电路部分修改；\n2. 尝试复现Chopping Stablized Amplifier的复杂结构。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -15993,7 +15993,7 @@
           "nextPlan": "1. 继续和罗森、丁老师讨论校准方案细节；\n2. 复现Chopping Stablized Amplifier；\n3. 继续总结高性能IA运放结构。"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -16034,7 +16034,7 @@
           "nextPlan": "1. 优化VREF结构"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -16075,7 +16075,7 @@
           "nextPlan": "继续优化capless VREF结构"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -16116,7 +16116,7 @@
           "nextPlan": "继续调研高压运放结构"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -16157,7 +16157,7 @@
           "nextPlan": "继续搭建剩余高压运放部分"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -16198,7 +16198,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -16239,7 +16239,7 @@
           "nextPlan": "休假完成后继续推导Calibration数字部分"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -16280,7 +16280,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -16321,7 +16321,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -16362,7 +16362,7 @@
           "nextPlan": "继续修改Verilog代码，保证时序 & 功能正常工作"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -16403,7 +16403,7 @@
           "nextPlan": "Calibration部分收尾 + VCM VREF"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -16444,7 +16444,7 @@
           "nextPlan": "找到Calibration中什么因素导致了校准效果不理想"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -16485,7 +16485,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -16526,7 +16526,7 @@
           "nextPlan": "1. 100点MC Calibration能够全部校准回来，且效果在10.3bit+\n2. 完成OSC1的仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -16567,7 +16567,7 @@
           "nextPlan": "争取完成Calibration部分全部工作"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -16608,7 +16608,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -16649,7 +16649,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -16690,7 +16690,7 @@
           "nextPlan": "5M 16B SAR ADC建模"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -16731,7 +16731,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -16772,7 +16772,7 @@
           "nextPlan": "确定链路中各个模块的噪声指标，反推出需要的结构"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -16813,7 +16813,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -16854,7 +16854,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -16895,7 +16895,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -16936,7 +16936,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -16977,7 +16977,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -17018,7 +17018,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -17059,7 +17059,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -17100,7 +17100,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -17141,7 +17141,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -17182,7 +17182,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -17223,7 +17223,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -17264,7 +17264,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -17305,7 +17305,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -17346,7 +17346,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -17387,7 +17387,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -17428,7 +17428,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -17469,7 +17469,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -17510,7 +17510,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -17551,7 +17551,7 @@
           "nextPlan": "/"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -17592,7 +17592,7 @@
           "nextPlan": "完成ANA_TOP_V3的顶层symbol确认，做顶层仿真计划"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -17633,7 +17633,7 @@
           "nextPlan": "完成顶层仿真计划，并基本完成顶层仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -17669,12 +17669,12 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "1. 完成CH7001 ANA_TOP的签核\n2. 完成本科生课程材料的撰写\n3. 准备博资考",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1. 完成了ANA_TOP_V5的顶层上电仿真（修改了上电相关电路，解决了BG拉不起来的问题）和信号链整体功能仿真\n2. 解决了输出的纹波问题，在IBANK处加入滤波电容即可",
+          "problems": "/",
+          "nextPlan": "ANA_TOP_V5继续仿真（完成配置不同寄存器、不同增益下的仿真，看是否有问题）。"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -17715,7 +17715,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -17756,7 +17756,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -17797,7 +17797,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -17838,7 +17838,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -17879,7 +17879,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -17920,7 +17920,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -17961,7 +17961,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -18002,7 +18002,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -18043,7 +18043,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -18084,7 +18084,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -18125,7 +18125,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -18172,7 +18172,7 @@
       "name": "王思逸",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -18213,7 +18213,7 @@
           "nextPlan": "618项目联仿"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -18254,7 +18254,7 @@
           "nextPlan": "stg1中理想开关完成替换；618新版数字顶层混仿"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -18295,7 +18295,7 @@
           "nextPlan": "寻找提升开环放大器线性度的方案"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -18336,7 +18336,7 @@
           "nextPlan": "完成1.8V下RA的性能验证"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -18377,7 +18377,7 @@
           "nextPlan": "处理共模问题；验证两级架构以及级间冗余问题"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -18418,7 +18418,7 @@
           "nextPlan": "部分开关的替换"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -18459,7 +18459,7 @@
           "nextPlan": "Stg1 RA完成理想器件替换与测试"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -18500,7 +18500,7 @@
           "nextPlan": "明确指标，确定整体架构"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -18541,7 +18541,7 @@
           "nextPlan": "针对会上提出的风险点进行仿真验证"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -18582,7 +18582,7 @@
           "nextPlan": "对RA的原理进行推导验证"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -18623,7 +18623,7 @@
           "nextPlan": "对各模块进行单独设计"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -18664,7 +18664,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -18705,7 +18705,7 @@
           "nextPlan": "完成整体系统仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -18746,7 +18746,7 @@
           "nextPlan": "开始画SAR版图"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -18787,7 +18787,7 @@
           "nextPlan": "继续画SAR版图/调整RA的时钟模块"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -18828,7 +18828,7 @@
           "nextPlan": "推进SAR版图/RA的时钟模块调整完成"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -18869,7 +18869,7 @@
           "nextPlan": "SAR版图改版"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -18910,7 +18910,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -18951,7 +18951,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -18992,7 +18992,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -19033,7 +19033,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -19074,7 +19074,7 @@
           "nextPlan": "版图继续推进；CMP校准模块调整"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -19115,7 +19115,7 @@
           "nextPlan": "SAR CDAC版图优化；RA版图推进"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -19156,7 +19156,7 @@
           "nextPlan": "PAD规划；优化RA后仿结果"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -19197,7 +19197,7 @@
           "nextPlan": "RA根据SAR新的版图重新调整尺寸及后仿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -19238,7 +19238,7 @@
           "nextPlan": "Flash后仿问题定位与修改；RA与SAR联仿；IB开始做"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -19279,7 +19279,7 @@
           "nextPlan": "L3互联与后仿优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -19320,7 +19320,7 @@
           "nextPlan": "IB/RefB 版图"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -19361,7 +19361,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -19402,7 +19402,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -19443,7 +19443,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -19484,7 +19484,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -19525,7 +19525,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -19566,7 +19566,7 @@
           "nextPlan": "分模块后仿，定位问题；尝试片外补救；项目技术路线研究"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -19607,7 +19607,7 @@
           "nextPlan": "618项目测试/3G14B原理图搭建"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -19648,7 +19648,7 @@
           "nextPlan": "尝试优化一下SAR的后仿速度或者考虑增加前级bit数；618测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -19689,7 +19689,7 @@
           "nextPlan": "继续测试；方案优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -19730,7 +19730,7 @@
           "nextPlan": "继续按要求测试618项目的线性度/重复性等指标；3G项目继续优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -19771,7 +19771,7 @@
           "nextPlan": "尝试3G新架构；高精度项目解析"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -19812,7 +19812,7 @@
           "nextPlan": "继续研究电路，进行对应仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -19853,7 +19853,7 @@
           "nextPlan": "开始3G方案确定"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -19894,7 +19894,7 @@
           "nextPlan": "进一步细化电路"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -19935,7 +19935,7 @@
           "nextPlan": "针对HW汇报反馈，完善电路仿真与设计；准备测试方案"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -19976,7 +19976,7 @@
           "nextPlan": "继续完善3G的电路；完善L3仿真，定位问题；L2仿真一下性能"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -20017,7 +20017,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -20058,7 +20058,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -20099,7 +20099,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -20140,7 +20140,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -20181,7 +20181,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -20222,7 +20222,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -20263,7 +20263,7 @@
           "nextPlan": "1. 故事线梳理&系统图 2. RA数字前台校准完善 3. 流片电路推进  4. v1芯片测试规划"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -20304,7 +20304,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -20340,12 +20340,12 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "校准算法优化；画图；RA补充电源仿真",
+          "problems": "无",
+          "nextPlan": "v1测试准备；v2进版图"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -20386,7 +20386,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -20427,7 +20427,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -20468,7 +20468,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -20509,7 +20509,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -20550,7 +20550,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -20591,7 +20591,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -20632,7 +20632,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -20673,7 +20673,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -20714,7 +20714,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -20755,7 +20755,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -20796,7 +20796,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -20843,7 +20843,7 @@
       "name": "陈翰文",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -20884,7 +20884,7 @@
           "nextPlan": "1.618 BG和顶层后仿。\n2.TS完成高阶补偿的真实化和校准策略验证"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -20925,7 +20925,7 @@
           "nextPlan": "1.618补一些剩下的顶层仿真。\n2.TS查明mc时高阶误差异常来源，并进行mc误差补偿，真实化高阶补偿电路"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -20966,7 +20966,7 @@
           "nextPlan": "对10个MC点进行分布高阶校准判断高阶校准后的3σ，高阶补偿的策略探究以及真实化"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -21007,7 +21007,7 @@
           "nextPlan": "1.完成批量生产的校准策略效果验证\n2.完成trim电路真实化——确定中心值、trim范围、比特数，完成真实电路\n3.实验室少批量校准的方法思考"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -21048,7 +21048,7 @@
           "nextPlan": "1.完成前端功耗优化，之后，分离电流镜和BJT斩波，BJT斩波注意使用开尔文连接\n2.前端优化完成后验证低功耗版本前端的高阶补偿是否有变化，若效果依旧则进行真实电路的搭建"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -21089,7 +21089,7 @@
           "nextPlan": "1.完成电流镜和BJT的斩波分离\n2.高阶补偿在低功耗版本再次验证，同时仿真验证与α选择的关系\n3.考虑是否需要用非线性量化的方法进行动态范围优化——可以节省采样电容，同时α可以在数字端实现，从而接受小数形式"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -21130,7 +21130,7 @@
           "nextPlan": "1.解决异常MC点问题\n2.高阶补偿再次验证\n3.真实化trim电路并估算校准位数"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -21171,7 +21171,7 @@
           "nextPlan": "1.高阶补偿验证\n2.真实化trim电路并估算校准位数"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -21212,7 +21212,7 @@
           "nextPlan": "1.完成高阶补偿验证\n2.进行真实化电路设计"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -21253,7 +21253,7 @@
           "nextPlan": "1.完成前端电路真实化\n2.完成trim位数估计\n3.尺寸优化"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -21294,7 +21294,7 @@
           "nextPlan": "1.完成前端\n2.和自强讨论如何优化ADC部分"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -21335,7 +21335,7 @@
           "nextPlan": "1.完成前端\n2.和自强讨论如何优化ADC部分"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -21376,7 +21376,7 @@
           "nextPlan": "1.配合自强优化后的ADC部分进行trim效果验证\n2.ADC非线性量化和改进输入级逻辑包括DEM"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -21417,7 +21417,7 @@
           "nextPlan": "1.前端电路配合理想ADC进行验证"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -21458,7 +21458,7 @@
           "nextPlan": "1.完成功耗分布和与最新文章对比\n2.完成理想ADC的建模，辅助验证前端"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -21499,7 +21499,7 @@
           "nextPlan": "1.完成高阶补偿结合真实ADC的设计和验证\n2,进行前端功耗和面积优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -21540,7 +21540,7 @@
           "nextPlan": "1.完成高阶补偿验证\n2.完成TS调研表格"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -21581,7 +21581,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -21622,7 +21622,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -21663,7 +21663,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -21704,7 +21704,7 @@
           "nextPlan": "①验证真实化电路的工艺角高阶补偿\n②完成MC的高阶补偿验证"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -21745,7 +21745,7 @@
           "nextPlan": "1.继续MC的高阶补偿验证（20点MC，挑出平均3点+最差2点，看理论Vco，选择合适α，验证校准策略效果和手动校准效果——如果策略不行就手动调整，再评估范围和位数）\n2.策略有效就换V7版前端验证电流复制电路影响精度，并且估算功耗消耗和进行上述的功耗优化想法（对比复制前后的电流：v7复制放大优化后的最终Vco与v6的Vco对比，与理论Vco对比）"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -21786,7 +21786,7 @@
           "nextPlan": "1.定位波动问题来源（目前大致定位到是运放mismatch）和原因\n2.解决波动问题 & 高阶补偿的MC验证"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -21827,7 +21827,7 @@
           "nextPlan": "1.继续debug MC波动问题，之后完成MC高阶补偿验证\n2.高阶补偿复制电流镜设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -21868,7 +21868,7 @@
           "nextPlan": "分析前端信号频谱，调整数字滤波器"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -21909,7 +21909,7 @@
           "nextPlan": "1.仿真确定rc截止频率最优值\n2.学习伪电阻技术，确定伪电阻非理想性的影响"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -21950,7 +21950,7 @@
           "nextPlan": "1.仿真DEM频率提高能否解决电流镜mis+DEM引起的混叠问题\n2.如果解决，完成整个前端MC高阶补偿验证"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -21991,7 +21991,7 @@
           "nextPlan": "1.学习数字滤波器设计理论，重新调整数字sinc2滤波器\n也可以把BS导入到MATLAB处理，避免截尾误差\n2.辅助618 IF debug\n3.618 DAC项目的BG（论文架构+电路设计）"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -22032,7 +22032,7 @@
           "nextPlan": "1.继续IF顶层仿真\n2.继续BG搭建\n3.学习数字滤波器设计并debug TS IDEM波动问题"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -22073,7 +22073,7 @@
           "nextPlan": "1.完成BG启动电路设计、完成PVT的直流工作点仿真\n2.进行一阶温漂校准设计、绝对值trim设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -22103,8 +22103,8 @@
             "#92D050",
             "#92D050",
             "#92D050",
-            "#92D050",
-            "#92D050",
+            "#E74025",
+            "#E74025",
             "#F4F5F8",
             "#F4F5F8"
           ],
@@ -22114,7 +22114,7 @@
           "nextPlan": "1.debug该架构启动电路\n2.完成工艺角和MC上电仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -22155,7 +22155,7 @@
           "nextPlan": "1.完成7001同架构设计\n2.下周和下下周完成ISCAS志愿者活动"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -22196,7 +22196,7 @@
           "nextPlan": "下周继续ISCAS志愿者活动，完成7001 BG core功能的验证"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -22237,7 +22237,7 @@
           "nextPlan": "进行618 DAC项目BG的温度补偿设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -22278,7 +22278,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -22319,7 +22319,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -22360,7 +22360,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -22401,7 +22401,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -22442,7 +22442,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -22483,7 +22483,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -22524,7 +22524,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -22565,7 +22565,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -22606,7 +22606,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -22647,7 +22647,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -22688,7 +22688,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -22729,7 +22729,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -22770,7 +22770,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -22811,7 +22811,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -22852,7 +22852,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -22893,7 +22893,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -22934,7 +22934,7 @@
           "nextPlan": "1.7001仿BG+BUF+DSM信号链\n2.618继续指导收集测试结果\n3.BG论文继续思考批量校准误差来源和占比\n4.TS继续完善idea和工程——前端杂波问题+ADC换开关"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -22975,7 +22975,7 @@
           "nextPlan": "1.BG+BUF+DSM工艺角仿真结果\n2.BG idea继续思考\n3.重新开始TS纵向的思考/仿真/设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -23005,18 +23005,18 @@
             "#92D050",
             "#92D050",
             "#92D050",
-            "#92D050",
-            "#92D050",
+            "#FF0000",
+            "#FF0000",
             "#F4F5F8",
             "#F4F5F8"
           ],
           "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1.7001项目一些辅助设计和仿真，比如IBANK压制输出电流纹波\n2.和618那边对接BG测试，程序和设备618基本调试好了，预计最近可以开始测试\n3.BG实际输出的绝对值和温漂波动继续在分析，同时结合7001项目BG进行仿真，正在总结VBG波动与实际电路哪些模块波动关系最密切",
+          "problems": "暂无",
+          "nextPlan": "1.7001继续维护模块\n2.618继续督促测试\n3.BG继续思考校准\n4.TS抽时间开始整理和debug"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -23057,7 +23057,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -23098,7 +23098,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -23139,7 +23139,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -23180,7 +23180,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -23221,7 +23221,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -23262,7 +23262,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -23303,7 +23303,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -23344,7 +23344,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -23385,7 +23385,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -23426,7 +23426,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -23467,7 +23467,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -23514,7 +23514,7 @@
       "name": "罗森",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -23555,7 +23555,7 @@
           "nextPlan": "1. SAR ADC MALTAB模型学习，包括建模，桥接电容和切换机制 \n2.bit-weight前台仿真基础代码"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -23596,7 +23596,7 @@
           "nextPlan": "1.完善前台校准仿真代码，确定完整方案 \n2.算法迁移到simulink模型"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -23637,7 +23637,7 @@
           "nextPlan": "1. 完善PWL算法仿真细节 \n2.尝试实现两级PWL非线性校准 \n3.学习宁远的SAR工作机制，完善前台校准算法"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -23678,7 +23678,7 @@
           "nextPlan": "1.调试两级PWL校准算法，尝试更多的分段方法\n2.完善前台校准，推动电路级部署\n3.完善PSAR电路和相应的MATLAB仿真"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -23719,7 +23719,7 @@
           "nextPlan": "1.整理实验数据，总结当前阶段的论文复现经验\n2.完善理论，回归论文和课本，寻找更多改进方案\n3.尝试建模TI-PSAR的非理想模型，尝试验证LMS算法对各种非理想因素的校准能力"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -23760,7 +23760,7 @@
           "nextPlan": "1. 毕设开题报告框架\n2. 回归Ali课本，完善流水线ADC和数字校准理论\n3. 完善PSAR电路，包括OPA bias，三态门开关等，尝试仿真PVT变化下的电路性能并寻找问题"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -23801,7 +23801,7 @@
           "nextPlan": "1.完成CTD校准方法建模复现，评估该方法的优缺点"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -23842,7 +23842,7 @@
           "nextPlan": "1.MATLAB建模 DSM-assisted cal方案模型，尝试验证该方法的效果\n2.尝试初步复现CTD方法对应的电路（2 step PSAR+RAMP+latch）\n3.继续完善RAMP相关理论"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -23883,7 +23883,7 @@
           "nextPlan": "1.巩固两篇论文复现的工作，进行经验整理\n2.根据丁老师要求完成建模验证"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -23924,7 +23924,7 @@
           "nextPlan": "1.配合宁远和丁老师确定SAR方案\n2.完成开题报告和开题答辩"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -23965,7 +23965,7 @@
           "nextPlan": "1.完善12b SAR gain error和offset校准\n2.整理毕设已有工作，拟毕业论文的框架\n3.完善DSM-SAR校准建模"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -24006,7 +24006,7 @@
           "nextPlan": "1.进一步迭代校准逻辑数字实现，和宁远丁老师讨论"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -24047,7 +24047,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -24088,7 +24088,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -24129,7 +24129,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -24170,7 +24170,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -24211,7 +24211,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -24252,7 +24252,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -24293,7 +24293,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -24334,7 +24334,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -24375,7 +24375,7 @@
           "nextPlan": "1.替换P-SAR放大器为开环放大器，尝试提升速度\n2.整理Gu Open Journal的论文内容\n3.整理SAR ADC前台校准技术"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -24416,7 +24416,7 @@
           "nextPlan": "1.补充论文初稿内容，完成主要工作内容的第一版\n2.整理bit weight校正原理推导"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -24457,7 +24457,7 @@
           "nextPlan": "1.梳理论文文字内容，补充图片\n2.整理bit weight校正细节"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -24498,7 +24498,7 @@
           "nextPlan": "1.撰写论文绪论和基础知识部分\n2.准备中期答辩"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -24539,7 +24539,7 @@
           "nextPlan": "1.协助完善SAR ADC仿真\n2.学习前沿adc论文 寻找idea\n3.继续学习bandgap，拓展基础知识\n4.规划之前在年会上讨论的training内容的编写"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -24580,7 +24580,7 @@
           "nextPlan": "1.整理bandgap学习和调试的相关经验，整理成一个training，同时加强模拟电路的基本功\n2.尝试18bit SAR ADC的DSM校准方法建模，构思idea"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -24621,7 +24621,7 @@
           "nextPlan": "1.完成论文全部内容，按照老师意见修改\n2.尝试18bit SAR ADC的DSM校准方法建模，构思idea"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -24662,7 +24662,7 @@
           "nextPlan": "1.完成论文定稿内容，整理图片和格式\n2.辅助宁远整理文献，制定HW项目方案"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -24703,7 +24703,7 @@
           "nextPlan": "1.修改毕设定稿，提交到毕设系统\n2.准备毕业设计答辩PPT\n3.JSSC 5M 16b建模，重点关注噪声压制的技术"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -24744,7 +24744,7 @@
           "nextPlan": "1.ringamp审稿+欧固审稿\n2.准备毕设答辩\n3.继续高精度SAR调研"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -24785,7 +24785,7 @@
           "nextPlan": "1.完成BCDA工艺库调研报告\n2.完成多档位数字滤波器建模和验证，熟悉1299项目调制器基本架构\n3.继续高精度SAR文献调研\n4.准备毕设答辩"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -24826,7 +24826,7 @@
           "nextPlan": "1.数字滤波器MATLAB建模\n2.毕设答辩\n3.ringamp审稿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -24867,7 +24867,7 @@
           "nextPlan": "1.7001 sdm理想电路仿真\n2.7001 sdm电路模块设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -24908,7 +24908,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -24949,7 +24949,7 @@
           "nextPlan": "1.sdm各个模块真实化：比较器，传输门开关\n2.INT运放优化debug\n3.争取完成第一版晶体管电路tt仿真"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -24990,7 +24990,7 @@
           "nextPlan": "1.完成对DWA的验证\n2.完成CLK GEN的真实化\n3.噪声性能优化，spec拆解"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -25031,7 +25031,7 @@
           "nextPlan": "1.完成噪声的摸底仿真\n2.尝试噪声优化：加大采样电容，加大INT1运放电流\n3.完善电路可靠性设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -25072,7 +25072,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -25113,7 +25113,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -25154,7 +25154,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -25195,7 +25195,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -25236,7 +25236,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -25277,7 +25277,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -25318,7 +25318,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -25359,7 +25359,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -25400,7 +25400,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -25441,7 +25441,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -25482,7 +25482,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -25523,7 +25523,7 @@
           "nextPlan": "1.继续进行SDM优化\n2.等待数字滤波器FPGA验证结果，进行信号链联仿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -25564,7 +25564,7 @@
           "nextPlan": "1.继续进行SDM优化\n2.进行V路的ADC性能评估\n3.搭建AZ技术验证的testbench"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -25605,7 +25605,7 @@
           "nextPlan": "1.7001 SDM仿真补充，模拟部分和丁老师check\n2.HW项目继续 参考4858架构"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -25646,7 +25646,7 @@
           "nextPlan": "1.AD4858建模\n2.SAR理想电路搭建\n3.7001优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -25687,7 +25687,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -25728,7 +25728,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -25769,7 +25769,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -25810,7 +25810,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -25851,7 +25851,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -25892,7 +25892,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -25933,7 +25933,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -25974,7 +25974,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -26015,7 +26015,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -26056,7 +26056,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -26097,7 +26097,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -26138,7 +26138,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -26185,7 +26185,7 @@
       "name": "张鑫",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -26226,7 +26226,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -26267,7 +26267,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -26308,7 +26308,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -26349,7 +26349,7 @@
           "nextPlan": "学习ADC前两章"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -26390,7 +26390,7 @@
           "nextPlan": "进一步学习cadence软件仿真工作，推进基础知识学习并同步电路仿真工作"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -26431,7 +26431,7 @@
           "nextPlan": "学习sarADC转换器并完成基本仿真"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -26472,7 +26472,7 @@
           "nextPlan": "进一步完成sar ADC的理想差分异步模型与基础知识学习，模块设计sar ADC真实电路"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -26513,7 +26513,7 @@
           "nextPlan": "1.完成4b的sar ADC搭建与仿真测试\n2.开始500M 10b的作业"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -26554,7 +26554,7 @@
           "nextPlan": "1.学习模拟集成电路频率响应部分\n2.继续完成大作业"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -26595,7 +26595,7 @@
           "nextPlan": "1.优化比较器以及其他模块，提升ENOB\n2.继续学习模极的频率响应部分"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -26636,7 +26636,7 @@
           "nextPlan": "1.学习运放相关知识\n2.搭建二级运放"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -26677,7 +26677,7 @@
           "nextPlan": "1.继续二级运放的搭建\n2.学习运放相关论文"
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -26718,7 +26718,7 @@
           "nextPlan": "1.完成DAC仿真任务\n2.继续搭建二级运放"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -26759,7 +26759,7 @@
           "nextPlan": "1.优化该运放使其满足计划参数\n2.完成该运放后搭建由cascode电流镜支持的运放"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -26800,7 +26800,7 @@
           "nextPlan": "1.优化该运放使其满足计划参数\n2.完成该运放后搭建由cascode电流镜支持的运放"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -26841,7 +26841,7 @@
           "nextPlan": "1.考虑使用更优的电流源结构来搭建运放\n2.继续阅读bandgap相关论文，补充基础知识"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -26882,7 +26882,7 @@
           "nextPlan": "1.考虑更换增益级的电路结构（recycling folded cascode）来优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -26923,7 +26923,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -26964,7 +26964,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -27005,7 +27005,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -27046,7 +27046,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -27087,7 +27087,7 @@
           "nextPlan": "1.继续学习第九章运放和第十章频率补偿\n2.阅读高压运放论文\n3.学习DAC知识并设计丁老师项目DAC（R2R）"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -27128,7 +27128,7 @@
           "nextPlan": "1.优化DAC性能，完成设计要求"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -27169,7 +27169,7 @@
           "nextPlan": "1.与运放进行联合仿真\n2.完成数字部分模块\n3.完善TB"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -27210,7 +27210,7 @@
           "nextPlan": "1.完成DAC前仿真\n2.版图绘制完成进入后仿"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -27251,7 +27251,7 @@
           "nextPlan": "1.优化版图寄生参数，提升后仿真INL和DNL性能"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -27292,7 +27292,7 @@
           "nextPlan": "1、完成和输出buffer联仿\n2、验证数字模块功能"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -27333,7 +27333,7 @@
           "nextPlan": "1、设计LDO为DAC提供VREF\n2、测试VREFBuffer\n3、使用实际数字标准单元测试同步电路"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -27374,7 +27374,7 @@
           "nextPlan": "1、初步完成粗糙LDO模块设计测试"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -27415,7 +27415,7 @@
           "nextPlan": "1、完善粗糙LDO的电路结构\n2、设计细LDO"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -27456,7 +27456,7 @@
           "nextPlan": "1、测试模拟、数字以及EFUSE的LDO，进入联仿环节\n2、RC振荡器模块学习"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -27497,7 +27497,7 @@
           "nextPlan": "1、实现RC振荡器功能\n2、完善LDO\n3、联仿测试LDO、bufferx3、\n     DAC"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -27538,7 +27538,7 @@
           "nextPlan": "1.换用Ring OSC的结构来设计振荡器\n2.LDO进入版图设计"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -27579,7 +27579,7 @@
           "nextPlan": "1.继续完善OSC设计\n2.推进LDO版图进度"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -27620,7 +27620,7 @@
           "nextPlan": "1、LDO版图及后仿\n2、OSC仿真优化"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -27661,7 +27661,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -27702,7 +27702,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -27743,7 +27743,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -27784,7 +27784,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -27825,7 +27825,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -27866,7 +27866,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -27907,7 +27907,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -27948,7 +27948,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -27989,7 +27989,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -28030,7 +28030,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -28071,7 +28071,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -28112,7 +28112,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -28153,7 +28153,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -28194,7 +28194,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -28235,7 +28235,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -28276,7 +28276,7 @@
           "nextPlan": "1、完成OSC的Floor plan\n2、完成阈值比较器的完整性能测试并Fix"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -28317,7 +28317,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -28352,13 +28352,13 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "monthlyPlan": "1、推进7001项目\n2、推进HW项目",
+          "completed": "1、初步摆好HRC的Floor plan\n2、发现HRPOLYU3电阻存在问题，MRC更换Trim电阻，重新调整参数\n3、阈值比较器Fix",
+          "problems": "1、HRPOLYU3这个电阻在PDK更新后不会自动更新参数（相同尺寸下阻值不同），导致仿真结果改变，目前已经更换该电阻\n2、Floor plan伟宇哥在做HRC Demo供昊延和我参考",
+          "nextPlan": "1、完成MRC的Floor plan\n2、LDO版图目前伟宇哥在画，画好后推进后仿工作"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -28399,7 +28399,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -28440,7 +28440,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -28481,7 +28481,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -28522,7 +28522,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -28563,7 +28563,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -28604,7 +28604,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -28645,7 +28645,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -28686,7 +28686,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -28727,7 +28727,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -28768,7 +28768,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -28809,7 +28809,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -28856,7 +28856,7 @@
       "name": "武昊延",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -28897,7 +28897,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -28938,7 +28938,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -28979,7 +28979,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -29020,7 +29020,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -29061,7 +29061,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -29102,7 +29102,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -29143,7 +29143,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -29184,7 +29184,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -29225,7 +29225,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -29266,7 +29266,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -29307,7 +29307,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -29348,7 +29348,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -29389,7 +29389,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -29430,7 +29430,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -29471,7 +29471,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -29512,7 +29512,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -29553,7 +29553,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -29594,7 +29594,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -29635,7 +29635,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -29676,7 +29676,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -29717,7 +29717,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -29758,7 +29758,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -29799,7 +29799,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -29840,7 +29840,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -29881,7 +29881,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -29922,7 +29922,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -29963,7 +29963,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -30004,7 +30004,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -30045,7 +30045,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -30086,7 +30086,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -30127,7 +30127,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -30168,7 +30168,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -30209,7 +30209,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -30250,7 +30250,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -30291,7 +30291,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -30332,7 +30332,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -30373,7 +30373,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -30414,7 +30414,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -30455,7 +30455,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -30496,7 +30496,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -30537,7 +30537,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -30578,7 +30578,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -30619,7 +30619,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -30660,7 +30660,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -30701,7 +30701,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -30742,7 +30742,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -30783,7 +30783,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -30824,7 +30824,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -30865,7 +30865,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -30906,7 +30906,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -30947,7 +30947,7 @@
           "nextPlan": "1. 学习版图绘制的基本操作与注意事项；\n2. 绘制LRC电路版图的Floor Plan"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -30988,7 +30988,7 @@
           "nextPlan": "1. 继续绘制LRC的Floor Plan；\n2. 学习开关电容放大器的相关电路知识；\n3. 阅读脑机接口模拟前端的板级系统相关文献"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -31029,7 +31029,7 @@
           "nextPlan": "1. 继续绘制LRC的Floor Plan；\n2. 继续优化VCM_BUF的性能；\n3. 阅读脑机接口模拟前端的板级系统相关文献；\n4. 学习开关电容放大器的相关电路知识"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -31070,7 +31070,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -31111,7 +31111,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -31152,7 +31152,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -31193,7 +31193,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -31234,7 +31234,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -31275,7 +31275,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -31316,7 +31316,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -31357,7 +31357,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -31398,7 +31398,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -31439,7 +31439,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -31480,7 +31480,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
@@ -31527,7 +31527,7 @@
       "name": "黄健昆",
       "weeks": [
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.06-10.12",
           "attendance": [
@@ -31568,7 +31568,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.13-10.19",
           "attendance": [
@@ -31609,7 +31609,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.20-10.26",
           "attendance": [
@@ -31650,7 +31650,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十月",
           "week": "10.27-11.02",
           "attendance": [
@@ -31691,7 +31691,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.03-11.09",
           "attendance": [
@@ -31732,7 +31732,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.10-11.16",
           "attendance": [
@@ -31773,7 +31773,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.17-11.23",
           "attendance": [
@@ -31814,7 +31814,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十一月",
           "week": "11.24-11.30",
           "attendance": [
@@ -31855,7 +31855,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.01-12.07",
           "attendance": [
@@ -31896,7 +31896,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.08-12.14",
           "attendance": [
@@ -31937,7 +31937,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.15-12.21",
           "attendance": [
@@ -31978,7 +31978,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.22-12.28",
           "attendance": [
@@ -32019,7 +32019,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2025",
+          "year": "2026",
           "month": "十二月",
           "week": "12.29-01.04",
           "attendance": [
@@ -32060,7 +32060,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.05-01.11",
           "attendance": [
@@ -32101,7 +32101,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.12-01.18",
           "attendance": [
@@ -32142,7 +32142,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.19-01.25",
           "attendance": [
@@ -32183,7 +32183,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "一月",
           "week": "01.26-02.01",
           "attendance": [
@@ -32224,7 +32224,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.02-02.08",
           "attendance": [
@@ -32265,7 +32265,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.09-02.15",
           "attendance": [
@@ -32306,7 +32306,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.16-02.22",
           "attendance": [
@@ -32347,7 +32347,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "二月",
           "week": "02.23-03.01",
           "attendance": [
@@ -32388,7 +32388,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.02-03.08",
           "attendance": [
@@ -32429,7 +32429,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.09-03.15",
           "attendance": [
@@ -32470,7 +32470,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.16-03.22",
           "attendance": [
@@ -32511,7 +32511,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.23-03.29",
           "attendance": [
@@ -32552,7 +32552,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "三月",
           "week": "03.30-04.05",
           "attendance": [
@@ -32593,7 +32593,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.06-04.12",
           "attendance": [
@@ -32634,7 +32634,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.13-04.19",
           "attendance": [
@@ -32675,7 +32675,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.20-04.26",
           "attendance": [
@@ -32716,7 +32716,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "四月",
           "week": "04.27-05.03",
           "attendance": [
@@ -32757,7 +32757,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.04-05.10",
           "attendance": [
@@ -32798,7 +32798,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.11-05.17",
           "attendance": [
@@ -32839,7 +32839,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.18-05.24",
           "attendance": [
@@ -32880,7 +32880,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "五月",
           "week": "05.25-05.31",
           "attendance": [
@@ -32921,7 +32921,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.01-06.07",
           "attendance": [
@@ -32962,7 +32962,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.08-06.14",
           "attendance": [
@@ -33003,7 +33003,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.15-06.21",
           "attendance": [
@@ -33044,7 +33044,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.22-06.28",
           "attendance": [
@@ -33085,7 +33085,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "六月",
           "week": "06.29-07.05",
           "attendance": [
@@ -33126,7 +33126,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.06-07.12",
           "attendance": [
@@ -33167,7 +33167,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.13-07.19",
           "attendance": [
@@ -33208,7 +33208,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.20-07.26",
           "attendance": [
@@ -33249,7 +33249,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "七月",
           "week": "07.27-08.02",
           "attendance": [
@@ -33290,7 +33290,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.03-08.09",
           "attendance": [
@@ -33331,7 +33331,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.10-08.16",
           "attendance": [
@@ -33372,7 +33372,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.17-08.23",
           "attendance": [
@@ -33413,7 +33413,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.24-08.30",
           "attendance": [
@@ -33454,7 +33454,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "八月",
           "week": "08.31-09.06",
           "attendance": [
@@ -33495,7 +33495,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.07-09.13",
           "attendance": [
@@ -33536,7 +33536,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.14-09.20",
           "attendance": [
@@ -33577,7 +33577,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.21-09.27",
           "attendance": [
@@ -33618,7 +33618,7 @@
           "nextPlan": "1.学习《数据转换器》第三章内容(50%)\n2.阅读《基于时域电荷平衡的  神经电刺激芯片设计》硕士论文\n3.阅读脑机接口板级系统的论文"
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "九月",
           "week": "09.28-10.04",
           "attendance": [
@@ -33659,7 +33659,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.05-10.11",
           "attendance": [
@@ -33695,12 +33695,12 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
+          "completed": "1.学习完《数据转换器》第三章内容\n2.阅读华师论文，学习DAC基础知识以及脑电刺激与采集基础知识\n3.调研16-bitDAC 并确定毕设研究方向",
+          "problems": "无",
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.12-10.18",
           "attendance": [
@@ -33741,7 +33741,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.19-10.25",
           "attendance": [
@@ -33782,7 +33782,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十月",
           "week": "10.26-11.01",
           "attendance": [
@@ -33823,7 +33823,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.02-11.08",
           "attendance": [
@@ -33864,7 +33864,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.09-11.15",
           "attendance": [
@@ -33905,7 +33905,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.16-11.22",
           "attendance": [
@@ -33946,7 +33946,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.23-11.29",
           "attendance": [
@@ -33987,7 +33987,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十一月",
           "week": "11.30-12.06",
           "attendance": [
@@ -34028,7 +34028,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.07-12.13",
           "attendance": [
@@ -34069,7 +34069,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.14-12.20",
           "attendance": [
@@ -34110,7 +34110,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.21-12.27",
           "attendance": [
@@ -34151,7 +34151,7 @@
           "nextPlan": ""
         },
         {
-          "year": "2026",
+          "year": "2027",
           "month": "十二月",
           "week": "12.28-01.03",
           "attendance": [
