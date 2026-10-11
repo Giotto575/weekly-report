@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-11T15:42:25.189Z",
+  "syncedAt": "2026-10-11T22:01:30.319Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -9082,9 +9082,9 @@
             ""
           ],
           "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1. 解决小电流情况下的校准问题\n2. 修改后的IDAC代入系统仿真",
+          "problems": "无",
+          "nextPlan": "1.在此基础上继续完成IADC RST的实现\n2.尝试搭建理想EXP环路"
         },
         {
           "year": "2026",
