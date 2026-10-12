@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-12T01:07:25.895Z",
+  "syncedAt": "2026-10-12T01:28:22.532Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -2176,7 +2176,7 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "",
-          "completed": "1、IF后仿网表优化，目前后仿真结果有问题，正在排查",
+          "completed": "1、IF后仿网表优化，初次线性度仿真结果已出，目前结果有问题，正在排查",
           "problems": "无",
           "nextPlan": "解决后仿异常问题，逐步完成线性度、温漂等仿真"
         },
