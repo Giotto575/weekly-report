@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-13T06:35:20.174Z",
+  "syncedAt": "2026-10-13T06:55:19.518Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -14506,7 +14506,7 @@
             ""
           ],
           "monthlyPlan": "1.完成双向脑机接口整体架构设计\n2.完成板级芯片选型\n3.确定创新点",
-          "completed": "",
+          "completed": "1.发现陈铭易组 JSSC 25 年有一篇两步式实现采集的文章，后端使用的是12bit SAR，目前需要仔细研究这篇论文",
           "problems": "",
           "nextPlan": ""
         },
