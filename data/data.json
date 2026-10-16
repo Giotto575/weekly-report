@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-16T06:15:57.791Z",
+  "syncedAt": "2026-10-16T06:36:55.616Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -26917,7 +26917,7 @@
             "#F4F5F8",
             ""
           ],
-          "monthlyPlan": "1、完成LDO设计\n2、DAC项目联仿\n3、进入版图",
+          "monthlyPlan": "",
           "completed": "1、完成细LDO设计，并优化\n2、完善粗糙LDO结构及性能",
           "problems": "",
           "nextPlan": "1、测试模拟、数字以及EFUSE的LDO，进入联仿环节\n2、RC振荡器模块学习"
@@ -26958,7 +26958,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "1、完成LDO设计\n2、DAC项目联仿\n3、进入版图",
+          "monthlyPlan": "",
           "completed": "1、完成粗糙和细致LDO测试\n2、搭建理想RC振荡器模块",
           "problems": "1、发现低温下（-55℃）的高压器件测试会报warning，且有时的测试结果报错（重复测试结果不同），初步判断是PDK问题，切换至-40℃恢复正常",
           "nextPlan": "1、实现RC振荡器功能\n2、完善LDO\n3、联仿测试LDO、bufferx3、\n     DAC"
@@ -26999,7 +26999,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "1、完成LDO设计\n2、DAC项目联仿\n3、进入版图",
+          "monthlyPlan": "",
           "completed": "1.完成ldo设计测试\n2.完成RC振荡器理想建模\n3.完成LDO和BUFFER以及DAC联仿",
           "problems": "1.RC振荡器波形不正确，可能是启动电路原因",
           "nextPlan": "1.换用Ring OSC的结构来设计振荡器\n2.LDO进入版图设计"
@@ -27040,7 +27040,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "1、完成LDO设计\n2、DAC项目联仿\n3、进入版图",
+          "monthlyPlan": "",
           "completed": "1.OSC波形测试正确\n2.6V的LDO版图进入绘画，6V和5V的LDO前仿完整测试通过",
           "problems": "",
           "nextPlan": "1.继续完善OSC设计\n2.推进LDO版图进度"
