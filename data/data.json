@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-16T02:47:57.938Z",
+  "syncedAt": "2026-10-16T03:08:56.091Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -27861,7 +27861,7 @@
             ""
           ],
           "monthlyPlan": "1、推进7001项目\n2、推进HW项目",
-          "completed": "1、LDO重新调整（负载能力20mA）且输出管用ESD结构\n2、MRC的Floor Plan完成\n3、",
+          "completed": "1、LDO重新调整（负载能力20mA且输出管用ESD结构）\n2、MRC的Floor Plan完成",
           "problems": "无",
           "nextPlan": ""
         },
