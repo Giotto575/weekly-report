@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-16T10:02:55.120Z",
+  "syncedAt": "2026-10-16T10:22:54.639Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -22519,9 +22519,9 @@
             ""
           ],
           "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1.TS重新开始整理，正在检查已完成模块的具体电路规范性，增加相关注释，按照DAC和BMS项目的工程经验重新修改部分不规范电路\n·前端OP的偏置电路\n·数字电路真实化 & LS电路 & 时钟\n·EN电路\n·部分电路尺寸\n·RC滤波部分（如果能够适当增加Fs则可以利用RC滤波滤除斩波和DEM纹波，解决杂波问题）\n2.重新检查原先暂定参数的合理性（AVDD、DVDD、Fs、OSR……）",
+          "problems": "暂无",
+          "nextPlan": "1.继续TS的电路整理、优化、debug\n2.618测试督促\n3.7001项目维护模块"
         },
         {
           "year": "2026",
