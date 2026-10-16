@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-16T07:58:55.176Z",
+  "syncedAt": "2026-10-16T08:18:52.498Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -14464,7 +14464,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "1.完成双向脑机接口整体架构设计\n2.完成板级芯片选型\n3.确定创新点",
+          "monthlyPlan": "1.EEG AFE论文\n2.博资考\n3.完成双向脑机接口整体板级架构设计\n及芯片选型\n4.寻找创新点",
           "completed": "1.学习SHDR原理，宁远说SHDR只能做scale down，因此需要换一种架构实现满量程测量",
           "problems": "1.目前整体架构思路上有些混乱，需要再好好梳理一下",
           "nextPlan": "1.本周对比集中伪影抑制方案，先确定好一个初步的整体架构"
@@ -14505,9 +14505,9 @@
             "",
             ""
           ],
-          "monthlyPlan": "1.完成双向脑机接口整体架构设计\n2.完成板级芯片选型\n3.确定创新点",
-          "completed": "1.发现陈铭易组 JSSC 25 年有一篇两步式实现采集的文章，后端使用的是12bit SAR，目前需要仔细研究这篇论文",
-          "problems": "",
+          "monthlyPlan": "1.EEG AFE论文\n2.博资考\n3.完成双向脑机接口整体板级架构设计\n及芯片选型\n4.寻找创新点",
+          "completed": "1.论文introduction部分，完成中文初稿\n2.初步确定创新架构由两步式转换实现",
+          "problems": "1.陈铭易组 JSSC 25 年有一篇两步式转换实现采集的文章，后端使用的是12bit SAR；JSSC 25还有一篇PSAR实现生物信号采集的论文，这两篇论文都需要仔细研究",
           "nextPlan": ""
         },
         {
@@ -14546,7 +14546,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "1.完成双向脑机接口整体架构设计\n2.完成板级芯片选型\n3.确定创新点",
+          "monthlyPlan": "1.EEG AFE论文\n2.博资考\n3.完成双向脑机接口整体板级架构设计\n及芯片选型\n4.寻找创新点",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -14587,7 +14587,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "1.完成双向脑机接口整体架构设计\n2.完成板级芯片选型\n3.确定创新点",
+          "monthlyPlan": "1.EEG AFE论文\n2.博资考\n3.完成双向脑机接口整体板级架构设计\n及芯片选型\n4.寻找创新点",
           "completed": "",
           "problems": "",
           "nextPlan": ""
