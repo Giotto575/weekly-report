@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-17T02:44:37.086Z",
+  "syncedAt": "2026-10-17T03:04:34.225Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -30532,7 +30532,7 @@
             ""
           ],
           "monthlyPlan": "CH7001_LRC+CH7001_Buffer+BCI AFE",
-          "completed": "",
+          "completed": "1. 继续绘制LRC的Floor Plan，包括基本器件的拜访、Guard Ring的添加、基本电源线的走线、；\n2. 继续优化VCM_BUF的性能；\n3. 学习开关电容放大器的相关电路知识",
           "problems": "",
           "nextPlan": ""
         },
