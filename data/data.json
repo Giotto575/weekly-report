@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-18T02:05:17.834Z",
+  "syncedAt": "2026-10-18T02:25:16.021Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -27861,9 +27861,9 @@
             ""
           ],
           "monthlyPlan": "1、推进7001项目\n2、推进HW项目",
-          "completed": "1、LDO重新调整（负载能力20mA且输出管用ESD结构）\n2、MRC的Floor Plan完成",
-          "problems": "无",
-          "nextPlan": ""
+          "completed": "1、LDO重新调整（负载能力20mA且输出管用ESD结构）\n2、MRC的Floor Plan完成\n3、HRC进入后仿真",
+          "problems": "1、HRC后仿真温漂大、不满足要求，目前正在找原因",
+          "nextPlan": "1、寻找HRC版图问题并完成后仿工作\n2、推进DAC和CMP的Floor Plan工作"
         },
         {
           "year": "2026",
