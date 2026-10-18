@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-18T10:55:20.182Z",
+  "syncedAt": "2026-10-18T11:15:18.339Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -11835,9 +11835,9 @@
             ""
           ],
           "monthlyPlan": "",
-          "completed": "",
+          "completed": "1.200M大信号细测 与 其他输入频率测试 \n2.200MHz两块板子测试结果汇总 与 思考 与 收集电源方案信息 \n3.整理20MHz的片子",
           "problems": "",
-          "nextPlan": ""
+          "nextPlan": "1.修改20M论文 主要包括MO的文字，1-2添加后的比较，几张图需要重新修改 \n2.复测筛出另外四块片子 \n3.温度测试放在下周 \n4.联系xinyu开会事项 \n5.PCB板支付事项"
         },
         {
           "year": "2026",
