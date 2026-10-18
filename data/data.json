@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-18T09:54:19.627Z",
+  "syncedAt": "2026-10-18T10:15:17.130Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -19806,7 +19806,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.v1芯片测试准备\n2.v2芯片流片推进",
           "completed": "校准算法优化；画图；RA补充电源仿真",
           "problems": "无",
           "nextPlan": "v1测试准备；v2进版图"
@@ -19847,10 +19847,10 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "monthlyPlan": "1.v1芯片测试准备\n2.v2芯片流片推进",
+          "completed": "1.校准算法做了简化，之前版本存在多零点问题，修正后减小了性能波动与硬件开销\n2.测试板原理图绘制",
+          "problems": "电路原理图仿真在高温下线性度会下降，初步定位在RA与第二级接口的开关，正在修正",
+          "nextPlan": "1.测试板PCB\n2.IBF版图推进"
         },
         {
           "year": "2026",
@@ -19888,7 +19888,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.v1芯片测试准备\n2.v2芯片流片推进",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -19929,7 +19929,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.v1芯片测试准备\n2.v2芯片流片推进",
           "completed": "",
           "problems": "",
           "nextPlan": ""
