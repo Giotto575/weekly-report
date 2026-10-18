@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-18T13:18:20.468Z",
+  "syncedAt": "2026-10-18T13:38:20.898Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -9122,7 +9122,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.DSM改IADC，RST时序和开关设计\n2.EXP理想环路实现",
           "completed": "1. 解决小电流情况下的校准问题\n2. 修改后的IDAC代入系统仿真",
           "problems": "无",
           "nextPlan": "1.在此基础上继续完成IADC RST的实现\n2.尝试搭建理想EXP环路"
@@ -9156,15 +9156,15 @@
             "#92D050",
             "#92D050",
             "#92D050",
-            "#92D050",
+            "#FF0000",
             "#92D050",
             "",
             "",
             "",
             ""
           ],
-          "monthlyPlan": "",
-          "completed": "",
+          "monthlyPlan": "1.DSM改IADC，RST时序和开关设计\n2.EXP理想环路实现",
+          "completed": "1.带calibration的IDAC RST时序和bypass设计\n2.INT尝试多种RST方案，目前依然是断开输入电阻的方案系统精度最高",
           "problems": "",
           "nextPlan": ""
         },
@@ -9204,7 +9204,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.DSM改IADC，RST时序和开关设计\n2.EXP理想环路实现",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -9245,7 +9245,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.DSM改IADC，RST时序和开关设计\n2.EXP理想环路实现",
           "completed": "",
           "problems": "",
           "nextPlan": ""
