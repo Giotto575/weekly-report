@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-18T12:38:19.032Z",
+  "syncedAt": "2026-10-18T12:58:16.025Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -25190,9 +25190,9 @@
             ""
           ],
           "monthlyPlan": "CH7001项目版图后仿+HW项目",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1. RA AZ方案加入第二级BUFFER，5+12bit ADC能达到15bit精度，存在一定精度下降\n2. 设计5V下的OTA放大器，用于噪声验证\n3. 与伟宇对接版图，准备CLK GEN和DWA的版图floor plan",
+          "problems": "无",
+          "nextPlan": "1.完善AZ方案，总结问题和结论，准备汇报\n2.7001逻辑部分版图"
         },
         {
           "year": "2026",
