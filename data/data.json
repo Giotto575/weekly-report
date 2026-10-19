@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-19T00:23:50.345Z",
+  "syncedAt": "2026-10-19T00:43:49.392Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -2217,9 +2217,9 @@
             ""
           ],
           "monthlyPlan": "",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1、IF后仿问题已经解决，目前初步仿真小电流线性度正常，正在对大电流线性度进行仿真\n2、DAC项目的OWI测试电路原理图已经设计完成\n3、IF项目ESD测试方案已确定",
+          "problems": "无",
+          "nextPlan": "1、继续进行IF后仿工作\n2、ZF结题工作按要求准备\n3、准备二期脑计划方案"
         },
         {
           "year": "2026",
