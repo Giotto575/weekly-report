@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-19T01:23:56.668Z",
+  "syncedAt": "2026-10-19T01:44:58.675Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -14508,7 +14508,7 @@
           "monthlyPlan": "1.EEG AFE论文\n2.博资考\n3.完成双向脑机接口整体板级架构设计\n及芯片选型\n4.寻找创新点",
           "completed": "1.论文introduction部分，完成中文初稿\n2.初步确定创新架构由两步式转换实现",
           "problems": "1.陈铭易组 JSSC 25 年有一篇两步式转换实现采集的文章，后端使用的是12bit SAR；JSSC 25还有一篇PSAR实现生物信号采集的论文，这两篇论文都需要仔细研究",
-          "nextPlan": ""
+          "nextPlan": "1.修改完成introduction\n2.完成论文系统框图并梳理系统指标"
         },
         {
           "year": "2026",
