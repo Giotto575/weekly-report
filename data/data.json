@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-23T06:49:32.367Z",
+  "syncedAt": "2026-10-23T07:09:27.885Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -27902,9 +27902,9 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "1、推进7001项目\n2、推进HW项目",
-          "completed": "1、HRC问题找到，因为版图中的核心管的Finger数从1变至4，导致Vgs和阈值电压的温度系数改变，影响整体的温度补偿电流，目前待版图修改好后重新后仿\n2、DAC和CMP的FP基本Fix\n3、MRC的FP按照丁老师和伟宇哥的意见修改",
+          "completed": "1、HRC问题找到，因为版图中的核心管的Finger数从1变至4，导致Vgs和阈值电压的温度系数改变，影响整体的温度补偿电流，目前待版图修改好后重新后仿\n2、DAC和CMP的FP基本Fix\n3、MRC的FP按照丁老师和伟宇哥的意见继续修改",
           "problems": "1、阈值比较器（AGC）和MRC的FP由于有大量电阻，目前存在ACT Density问题，目前让伟宇哥先改，后面我和昊延一起修正各自的FP",
-          "nextPlan": "1、推进HRC的后仿工作\n2、LDO版图本周能出，推进LDO后仿\n3、修正AGC"
+          "nextPlan": "1、推进HRC的后仿工作\n2、LDO版图本周能出，推进LDO后仿\n3、修正AGC和MRC的ACT Density问题"
         },
         {
           "year": "2026",
