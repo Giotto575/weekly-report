@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-23T04:07:32.415Z",
+  "syncedAt": "2026-10-23T04:28:23.208Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -22560,8 +22560,8 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
-          "completed": "",
-          "problems": "",
+          "completed": "1.TS重新整理参数：\n①明确AVDD=3.3V，DVDD=1.5V，加入LS电路，重新调整电源混乱命名（AVDD、AGND、VSS、AVSS、SUB、DVDD、DGND……）\n②Fs和OSR调整为合理值：14.48K→32K，724→1024；对于杂波问题，考虑可以适当增大Fs，配合RC滤波滤除部分高频杂波，由此转换时间从50ms→32ms，影响不大\n2.确定上电顺序：模拟-数字-时钟，确定前端时序（暂不包含ADC的复杂时序）\n3.重新整理电路模块：\n①分离前端和高阶补偿电路，独立整理为三个模块：前端、高阶补偿电路、ADC\n②简化模块端口，重新整理TB\n4.优化和完善各模块电路和仿真：\n①前端数字电路全替换真实\n②stb、上电仿真补全（PVT、200p 高低温MC）\n③LS电路、EN电路\n④前端电路的启动电路和管子重新都优化了一遍，同时添加注释",
+          "problems": "1.高阶补偿电路的VREF产生需要使用前端的VBE合成，但是用电流+电阻实现需要很大的电阻或者电流，都行不通；考虑使用加法器电路，但是R+OP的加法器实现复杂，需要考虑",
           "nextPlan": ""
         },
         {
