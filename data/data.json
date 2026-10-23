@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-23T04:28:23.208Z",
+  "syncedAt": "2026-10-23T04:48:26.710Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -22477,7 +22477,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
+          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续——电路翻新+前端杂波问题+ADC换开关",
           "completed": "1.7001项目一些辅助设计和仿真，比如IBANK压制输出电流纹波\n2.和618那边对接BG测试，程序和设备618基本调试好了，预计最近可以开始测试\n3.BG实际输出的绝对值和温漂波动继续在分析，同时结合7001项目BG进行仿真，正在总结VBG波动与实际电路哪些模块波动关系最密切",
           "problems": "暂无",
           "nextPlan": "1.7001继续维护模块\n2.618继续督促测试\n3.BG继续思考校准\n4.TS抽时间开始整理和debug"
@@ -22518,7 +22518,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
+          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续——电路翻新+前端杂波问题+ADC换开关",
           "completed": "1.TS重新开始整理，正在检查已完成模块的具体电路规范性，增加相关注释，按照DAC和BMS项目的工程经验重新修改部分不规范电路\n·前端OP的偏置电路\n·数字电路真实化 & LS电路 & 时钟\n·EN电路\n·部分电路尺寸\n·RC滤波部分（如果能够适当增加Fs则可以利用RC滤波滤除斩波和DEM纹波，解决杂波问题）\n2.重新检查原先暂定参数的合理性（AVDD、DVDD、Fs、OSR……）",
           "problems": "暂无",
           "nextPlan": "1.继续TS的电路整理、优化、debug\n2.618测试督促\n3.7001项目维护模块"
@@ -22559,10 +22559,10 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
-          "completed": "1.TS重新整理参数：\n①明确AVDD=3.3V，DVDD=1.5V，加入LS电路，重新调整电源混乱命名（AVDD、AGND、VSS、AVSS、SUB、DVDD、DGND……）\n②Fs和OSR调整为合理值：14.48K→32K，724→1024；对于杂波问题，考虑可以适当增大Fs，配合RC滤波滤除部分高频杂波，由此转换时间从50ms→32ms，影响不大\n2.确定上电顺序：模拟-数字-时钟，确定前端时序（暂不包含ADC的复杂时序）\n3.重新整理电路模块：\n①分离前端和高阶补偿电路，独立整理为三个模块：前端、高阶补偿电路、ADC\n②简化模块端口，重新整理TB\n4.优化和完善各模块电路和仿真：\n①前端数字电路全替换真实\n②stb、上电仿真补全（PVT、200p 高低温MC）\n③LS电路、EN电路\n④前端电路的启动电路和管子重新都优化了一遍，同时添加注释",
-          "problems": "1.高阶补偿电路的VREF产生需要使用前端的VBE合成，但是用电流+电阻实现需要很大的电阻或者电流，都行不通；考虑使用加法器电路，但是R+OP的加法器实现复杂，需要考虑",
-          "nextPlan": ""
+          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续——电路翻新+前端杂波问题+ADC换开关",
+          "completed": "1.TS重新整理参数：\n①明确AVDD=3.3V，DVDD=1.5V，加入LS电路，重新调整电源混乱命名（AVDD、AGND、VSS、AVSS、SUB、DVDD、DGND……）\n②Fs和OSR调整为合理值：14.48K→32K，724→1024；对于杂波问题，考虑可以适当增大Fs，配合RC滤波滤除部分高频杂波，由此转换时间从50ms→32ms，影响不大\n2.确定上电顺序：模拟-数字-时钟，确定前端时序（暂不包含ADC的复杂时序）\n3.重新整理电路模块：\n①分离前端和高阶补偿电路，独立整理为三个模块：前端、高阶补偿电路、ADC\n②简化模块端口，重新整理TB\n4.优化和完善各模块电路和仿真：\n①前端数字电路全替换真实\n②stb、上电仿真补全（PVT、200p 高低温MC）\n③LS电路、EN电路\n④前端电路的启动电路和管子重新都优化了一遍，同时添加注释\n5.618徐东远那边这几周有事，BG暂时测不了",
+          "problems": "1.高阶补偿电路的VREF产生需要使用前端的VBE合成，但是用电流+电阻实现需要很大的电阻或者电流，都行不通；考虑使用加法器电路，但是R+OP的加法器实现复杂，考虑使用SC加法器+采样电路，加法时直接合成VREF，采样时利用采样电路提供VREF，后续需要验证效果\n2.上电仿真出了一些问题，目前已经debug出是因为上电顺序不对，数字提前模拟上电导致AVDD下的DEM时钟不对，影响了前端建立",
+          "nextPlan": "1.继续TS前端的仿真完善和电路优化\n2.后续进行高阶补偿电路和ADC的仿真完善和电路优化，重点是高阶补偿杂波问题+RC滤波的效果 & ADC的开关更换\n3.整体TS计划：\n10月：电路翻新+前端杂波问题+ADC换开关\n11月~12月中：模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真\n12月中往后~明年3月：工艺替换、系统顶层、版图、后仿\n4.BMS继续维护BG和后续后仿\n5.618督促测试"
         },
         {
           "year": "2026",
@@ -22600,7 +22600,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续",
+          "monthlyPlan": "1.7001项目BG、IBANK、TS维护\n2.618BG测试\n3.BG论文思考\n4.TS科研继续——电路翻新+前端杂波问题+ADC换开关",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22641,7 +22641,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22682,7 +22682,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22723,7 +22723,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22764,7 +22764,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22805,7 +22805,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22846,7 +22846,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真、工艺替换、系统顶层、版图、后仿",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22887,7 +22887,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真、工艺替换、系统顶层、版图、后仿",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22928,7 +22928,7 @@
             "",
             ""
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真、工艺替换、系统顶层、版图、后仿",
           "completed": "",
           "problems": "",
           "nextPlan": ""
@@ -22969,7 +22969,7 @@
             "#F4F5F8",
             "#F4F5F8"
           ],
-          "monthlyPlan": "",
+          "monthlyPlan": "1.TS科研——模块进一步完善（CLK_GEN、IBANK、数字滤波器……）；CORE电路核心仿真、工艺替换、系统顶层、版图、后仿",
           "completed": "",
           "problems": "",
           "nextPlan": ""
