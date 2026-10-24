@@ -1,7 +1,7 @@
 {
   "source": "Tencent Docs online spreadsheet",
   "fileId": "DUXNBVnVMTG5tb1RH",
-  "syncedAt": "2026-10-24T05:53:10.249Z",
+  "syncedAt": "2026-10-24T06:14:04.153Z",
   "people": [
     {
       "id": "pb3bzy",
@@ -30573,9 +30573,9 @@
             "#F4F5F8"
           ],
           "monthlyPlan": "CH7001_LRC+CH7001_Buffer+BCI AFE",
-          "completed": "",
-          "problems": "",
-          "nextPlan": ""
+          "completed": "1. 完成LRC的Floor Plan的绘制(100%)，交由AI完成走线；\n2. 基于AI走线并抽取寄生后所形成的网表文件，完成对LRC模块的电路后仿验证，后仿温漂相较于前仿结果有所缓解；\n3. 学习开关电容电路知识(100%)以及ADC基础知识(10%)",
+          "problems": "暂无",
+          "nextPlan": "1. 等待AI对LRC版图中电阻的Guard-Ring部分进行优化后，基于最新的网表文件再次对LRC模块进行后仿验证工作；\n2. 继续学习ADC相关的电路基础知识；\n3. 阅读BCI AFE的相关论文"
         },
         {
           "year": "2026",
